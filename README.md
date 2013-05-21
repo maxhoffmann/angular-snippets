@@ -59,12 +59,12 @@ default attributes are suffixed with `a`, e.g. `classa`
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>config</th><td><pre>config(function($1) {
-	$0
+	<tr><th>config</th><td><pre>config(function(|) {
+	|
 });</pre></td></tr>
 	<tr><th>constant</th><td><pre>constant('{name}', {value});</pre></td></tr>
 	<tr><th>ctrl, controller</th><td><pre>controller('{Name}Ctrl', function({$scope}) {
-	$0
+	|
 });</pre></td></tr>
 	<tr><th>decorator</th><td><pre>decorator('{name}', function($provide) {
 	$provide.decorator('{name}', function($delegate) {
