@@ -4,11 +4,9 @@ provider('${1:name}', function ${1:name}Constructor($2) {
 	$0
 
 	this.\$get = function() {
-
 		return {
 
 		};
-
 	};
 });
 ]]></content>

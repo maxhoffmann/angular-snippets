@@ -91,11 +91,9 @@ default attributes are suffixed with `a`, e.g. `classa`
 	|
 
 	this.$get = function() {
-
 		return {
 
 		};
-
 	};
 });</pre></td></tr>
 	<tr><th>run</th><td><pre>run(function(|) {
