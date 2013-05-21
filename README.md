@@ -40,7 +40,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>mouseup</th><td>ng-mouseup="|"</td></tr>
 	<tr><th>multiple</th><td>ng-multiple="|"</td></tr>
 	<tr><th>nbind</th><td>ng-non-bindable="|"</td></tr>
-	<tr><th>pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"&gt;&lt;/ng-pluralize&gt;</td></tr>
+	<tr><th>pluralize</th><td>&lt;ng-pluralize count="|" when="'|': '{}'"&gt;&lt;/ng-pluralize&gt;</td></tr>
 	<tr><th>readonly<span style="color: green">a</span></th><td>ng-readonly="|"</td></tr>
 	<tr><th>repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
 	<tr><th>selected<span style="color: green">a</span></th><td>ng-selected="|"</td></tr>
