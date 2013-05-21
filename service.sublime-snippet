@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+service('${1:name}', function ${1:name}Constructor($2) {
+	$0
+});
+]]></content>
+	<tabTrigger>service</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular service</description>
+</snippet>

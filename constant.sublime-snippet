@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+constant('${1:name}', ${2:value});
+]]></content>
+	<tabTrigger>constant</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular constant</description>
+</snippet>

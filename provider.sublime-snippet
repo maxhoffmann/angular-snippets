@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+provider('${1:name}', function ${1:name}Constructor($2) {
+	$0
+
+	this.\$get = function() {
+
+		return {
+
+		};
+
+	};
+});
+]]></content>
+	<tabTrigger>provider</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular provider</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+directive('${1:name}', function ${1:name}Factory($2) {
+  return {
+	restrict: '${3:A}',
+	link(scope, iElement, iAttrs) {
+		$0
+	}
+  };
+});
+]]></content>
+	<tabTrigger>directive</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular directive</description>
+</snippet>

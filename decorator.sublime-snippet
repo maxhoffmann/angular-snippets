@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+decorator('${1:name}', function(\$provide) {
+	\$provide.decorator('${2:name}', function(\$delegate) {
+		return ${3:\$delegate}$0;
+	});
+});
+]]></content>
+	<tabTrigger>decorator</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular decorator</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+factory('${1:name}', function ${1:name}Get($2) {
+	$0
+
+	return {
+
+	};
+});
+]]></content>
+	<tabTrigger>factory</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular factory</description>
+</snippet>
