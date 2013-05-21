@@ -46,7 +46,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>selected<span style="color: green">a</span></th><td>ng-selected="|"</td></tr>
 	<tr><th>show</th><td>ng-show="|"</td></tr>
 	<tr><th>src<span style="color: green">a</span></th><td>ng-src="|"</td></tr>
-	<tr><th>style</th><td>ng-style="|"</td></tr>
+	<tr><th>style<span style="color: green">a</span></th><td>ng-style="|"</td></tr>
 	<tr><th>submit</th><td>ng-submit="|"</td></tr>
 	<tr><th>switch</th><td>ng-switch="|"</td></tr>
 	<tr><th>switchd</th><td>ng-switch-default="|" on="|"</td></tr>
