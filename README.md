@@ -5,9 +5,9 @@
 - Package Control: install the package "Angular.js Snippets"
 - Manual: copy files to the Sublime packages folder
 
-## HTML Snippets
+## Directives (HTML attributes)
 
-default attributes are suffixed with `a`, e.g. `classa`
+html standard attributes are suffixed with `a`, e.g. `classa`
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
@@ -55,7 +55,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>view</th><td>ng-view</td></tr>
 </table>
 
-## JavaScript Snippets
+## JavaScript
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
