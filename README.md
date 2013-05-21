@@ -14,7 +14,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>app</th><td>ng-app="|"</td></tr>
 	<tr><th>bind</th><td>ng-bind="|"</td></tr>
 	<tr><th>bindh</th><td>ng-bind-html-unsafe="|"</td></tr>
-	<tr><th>bindt</th><td>ng-bind="|"</td></tr>
+	<tr><th>bindt</th><td>ng-bind-template="|"</td></tr>
 	<tr><th>change</th><td>ng-change="|"</td></tr>
 	<tr><th>checked<span style="color: green">a</span></th><td>ng-checked="|"</td></tr>
 	<tr><th>class<span style="color: green">a</span></th><td>ng-class="|"</td></tr>
