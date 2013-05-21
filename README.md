@@ -10,24 +10,24 @@
 default attributes are suffixed with `a`, e.g. `classa`
 
 <table>
-	<tr><th>shortcut</th><th>completion</th></tr>
+	<tr><th>trigger</th><th>completion</th></tr>
 	<tr><th>app</th><td>ng-app="|"</td></tr>
 	<tr><th>bind</th><td>ng-bind="|"</td></tr>
 	<tr><th>bindh</th><td>ng-bind-html-unsafe="|"</td></tr>
 	<tr><th>bindt</th><td>ng-bind="|"</td></tr>
 	<tr><th>change</th><td>ng-change="|"</td></tr>
-	<tr><th>checkeda</th><td>ng-checked="|"</td></tr>
-	<tr><th>classa</th><td>ng-class="|"</td></tr>
+	<tr><th>checked<span style="color: green">a</span></th><td>ng-checked="|"</td></tr>
+	<tr><th>class<span style="color: green">a</span></th><td>ng-class="|"</td></tr>
 	<tr><th>classe</th><td>ng-class-even="|"</td></tr>
 	<tr><th>classo</th><td>ng-class-odd="|"</td></tr>
 	<tr><th>click</th><td>ng-click="|"</td></tr>
 	<tr><th>cloak</th><td>ng-cloak</td></tr>
 	<tr><th>ctrl, controller</th><td>ng-controller="|Ctrl"</td></tr>
 	<tr><th>dclick</th><td>ng-dblclick="|"</td></tr>
-	<tr><th>disableda</th><td>ng-disabled="|"</td></tr>
-	<tr><th>forma</th><td>ng-form="|"</td></tr>
+	<tr><th>disabled<span style="color: green">a</span></th><td>ng-disabled="|"</td></tr>
+	<tr><th>form<span style="color: green">a</span></th><td>ng-form="|"</td></tr>
 	<tr><th>hide</th><td>ng-hide="|"</td></tr>
-	<tr><th>hrefa</th><td>ng-href="|"</td></tr>
+	<tr><th>href<span style="color: green">a</span></th><td>ng-href="|"</td></tr>
 	<tr><th>include</th><td>ng-include="{template}" {onload="|" autoscroll="|"}</td></tr>
 	<tr><th>init</th><td>ng-init="|"</td></tr>
 	<tr><th>list</th><td>ng-list="|"</td></tr>
@@ -41,9 +41,9 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>multiple</th><td>ng-multiple="|"</td></tr>
 	<tr><th>nbind</th><td>ng-non-bindable="|"</td></tr>
 	<tr><th>pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"&gt;&lt;/ng-pluralize&gt;</td></tr>
-	<tr><th>readonlya</th><td>ng-readonly="|"</td></tr>
+	<tr><th>readonly<span style="color: green">a</span></th><td>ng-readonly="|"</td></tr>
 	<tr><th>repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
-	<tr><th>selecteda</th><td>ng-selected="|"</td></tr>
+	<tr><th>selected<span style="color: green">a</span></th><td>ng-selected="|"</td></tr>
 	<tr><th>show</th><td>ng-show="|"</td></tr>
 	<tr><th>src</th><td>ng-src="|"</td></tr>
 	<tr><th>style</th><td>ng-style="|"</td></tr>
@@ -58,7 +58,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 ## JavaScript Snippets
 
 <table>
-	<tr><th>shortcut</th><th>completion</th></tr>
+	<tr><th>trigger</th><th>completion</th></tr>
 	<tr><th>config</th><td><pre>config(function($1) {
 	$0
 });</pre></td></tr>
