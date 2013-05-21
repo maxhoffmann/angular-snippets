@@ -51,7 +51,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>switch</th><td>ng-switch="|" on="|"</td></tr>
 	<tr><th>switchd</th><td>ng-switch-default="|"</td></tr>
 	<tr><th>switchw</th><td>ng-switch-when="|"</td></tr>
-	<tr><th>transclude</th><td>ng-transclude</td></tr>
+	<tr><th>trans, transclude</th><td>ng-transclude</td></tr>
 	<tr><th>view</th><td>ng-view</td></tr>
 </table>
 
