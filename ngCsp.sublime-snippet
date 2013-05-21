@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-csp
+]]></content>
+	<tabTrigger>csp</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-csp</description>
+</snippet>

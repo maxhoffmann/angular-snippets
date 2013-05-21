@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-mouseenter="$1"
+]]></content>
+	<tabTrigger>mouseenter</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-mouseenter</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-switch-default="$1"
+]]></content>
+	<tabTrigger>switchd</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-switch-default</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-hide="$1"
+]]></content>
+	<tabTrigger>hide</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-hide</description>
+</snippet>

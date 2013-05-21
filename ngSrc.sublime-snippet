@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-src="$1"
+]]></content>
+	<tabTrigger>srca</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-src</description>
+</snippet>

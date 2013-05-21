@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-model="$1"
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-model</description>
+</snippet>

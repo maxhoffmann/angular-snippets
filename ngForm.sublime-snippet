@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-form
+]]></content>
+	<tabTrigger>forma</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-form</description>
+</snippet>

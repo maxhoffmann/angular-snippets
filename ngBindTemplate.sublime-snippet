@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-bind-template="$1"
+]]></content>
+	<tabTrigger>bindt</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-bind-template</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-mousedown="$1"
+]]></content>
+	<tabTrigger>mousedown</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-mousedown</description>
+</snippet>

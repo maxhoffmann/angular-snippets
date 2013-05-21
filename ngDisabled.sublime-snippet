@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-disabled="$1"
+]]></content>
+	<tabTrigger>disableda</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-disabled</description>
+</snippet>

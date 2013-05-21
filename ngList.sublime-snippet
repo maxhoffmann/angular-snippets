@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-list="$1"
+]]></content>
+	<tabTrigger>list</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-list</description>
+</snippet>

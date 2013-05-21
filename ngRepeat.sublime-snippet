@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-repeat="${1:item} in ${2:array}"
+]]></content>
+	<tabTrigger>repeat</tabTrigger>
+	<scope>text.html</scope>
+	<description>angular ng-repeat</description>
+</snippet>

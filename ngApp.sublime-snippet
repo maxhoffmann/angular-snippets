@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-app="$1"
+]]></content>
+	<tabTrigger>app</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-app</description>
+</snippet>

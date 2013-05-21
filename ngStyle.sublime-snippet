@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-style="$1"
+]]></content>
+	<tabTrigger>stylea</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-style</description>
+</snippet>

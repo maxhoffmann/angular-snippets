@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-dblclick="$1"
+]]></content>
+	<tabTrigger>dclick</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-dblclick</description>
+</snippet>

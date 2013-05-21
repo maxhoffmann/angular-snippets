@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-switch="$1" on="$2"
+]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-switch</description>
+</snippet>

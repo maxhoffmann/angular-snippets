@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-include="${1:template}"${2: onload="$3" autoscroll="$4"}
+]]></content>
+	<tabTrigger>include</tabTrigger>
+	<scope>text.html</scope>
+	<description>angular ng-include</description>
+</snippet>

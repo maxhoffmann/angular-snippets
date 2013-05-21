@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-mousemove="$1"
+]]></content>
+	<tabTrigger>mousemove</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-mousemove</description>
+</snippet>

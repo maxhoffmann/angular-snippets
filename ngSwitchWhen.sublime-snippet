@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-switch-when="$1"
+]]></content>
+	<tabTrigger>switchw</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-switch-when</description>
+</snippet>

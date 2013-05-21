@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-mouseup="$1"
+]]></content>
+	<tabTrigger>mouseup</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-mouseup</description>
+</snippet>
