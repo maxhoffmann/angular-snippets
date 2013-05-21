@@ -48,8 +48,8 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>src<span style="color: green">a</span></th><td>ng-src="|"</td></tr>
 	<tr><th>style<span style="color: green">a</span></th><td>ng-style="|"</td></tr>
 	<tr><th>submit</th><td>ng-submit="|"</td></tr>
-	<tr><th>switch</th><td>ng-switch="|"</td></tr>
-	<tr><th>switchd</th><td>ng-switch-default="|" on="|"</td></tr>
+	<tr><th>switch</th><td>ng-switch="|" on="|"</td></tr>
+	<tr><th>switchd</th><td>ng-switch-default="|"</td></tr>
 	<tr><th>switchw</th><td>ng-switch-when="|"</td></tr>
 	<tr><th>transclude</th><td>ng-transclude</td></tr>
 	<tr><th>view</th><td>ng-view</td></tr>
