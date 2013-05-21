@@ -22,7 +22,7 @@ default attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>classo</th><td>ng-class-odd="|"</td></tr>
 	<tr><th>click</th><td>ng-click="|"</td></tr>
 	<tr><th>cloak</th><td>ng-cloak</td></tr>
-	<tr><th>ctrl, controller</th><td>ng-controller="|Ctrl"</td></tr>
+	<tr><th>ctrl, controller</th><td>ng-controller="{Name}Ctrl"</td></tr>
 	<tr><th>dclick</th><td>ng-dblclick="|"</td></tr>
 	<tr><th>disabled<span style="color: green">a</span></th><td>ng-disabled="|"</td></tr>
 	<tr><th>form<span style="color: green">a</span></th><td>ng-form="|"</td></tr>
