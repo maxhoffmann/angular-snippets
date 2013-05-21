@@ -2,7 +2,7 @@
 	<content><![CDATA[
 ng-checked="$1"
 ]]></content>
-	<tabTrigger>checked</tabTrigger>
+	<tabTrigger>checkeda</tabTrigger>
 	<scope>text.html meta.tag</scope>
 	<description>angular ng-checked</description>
 </snippet>
