@@ -1,5 +1,12 @@
 # Angular.js Snippets for Sublime Text 2
 
+This snippet library provides completions for Angular.js’s stable and unstable branch.
+
+Snippet Categories:
+- [Directives](#directives-html-attributes)
+- [Globals](#globals)
+- [Services And Types](#services--types)
+
 ## Installation
 
 - Package Control: install the package "Angular.js Snippets"
@@ -64,10 +71,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>view</th><td>ng-view</td></tr>
 </table>
 
-## JavaScript
-
-### Globals
-
+## Globals
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
@@ -98,7 +102,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>aversion</th><td><pre>angular.version</pre></td></tr>
 </table>
 
-### Services & Types
+## Services & Types
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
