@@ -123,7 +123,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	};
 }])</pre></td></tr>
 	<tr><th>directivel</th><td><pre>directive('{name}', [function {name}Factory() {
-		return {|
+	return {|
 		priority: 0,
 		template: '&lt;div&gt;&lt;/div&gt;',
 		templateUrl: 'directive.html',
