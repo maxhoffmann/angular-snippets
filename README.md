@@ -60,7 +60,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>switch</th><td>ng-switch="|" on="|"</td></tr>
 	<tr><th>switchd</th><td>ng-switch-default="|"</td></tr>
 	<tr><th>switchw</th><td>ng-switch-when="|"</td></tr>
-	<tr><th>trans, transclude</th><td>ng-transclude</td></tr>
+	<tr><th>transclude</th><td>ng-transclude</td></tr>
 	<tr><th>view</th><td>ng-view</td></tr>
 </table>
 
@@ -106,7 +106,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	|
 }])</pre></td></tr>
 	<tr><th>constant</th><td><pre>constant('{name}', {value})</pre></td></tr>
-	<tr><th>ctrl, controller</th><td><pre>controller('{Name}Ctrl', [function({$scope}) {
+	<tr><th>controller</th><td><pre>controller('{Name}Ctrl', [function({$scope}) {
 	|
 }])</pre></td></tr>
 	<tr><th>decorator</th><td><pre>decorator('{name}', [function($provide) {
