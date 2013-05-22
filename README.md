@@ -2,7 +2,7 @@
 
 ## Installation
 
-- Package Control: install the package "AngularJS Snippets"
+- Package Control: install the package "Angular.js Snippets"
 - Manual: copy files to the Sublime packages folder
 
 ## Directives (HTML attributes)
