@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-if="$1"
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-if</description>
+</snippet>
