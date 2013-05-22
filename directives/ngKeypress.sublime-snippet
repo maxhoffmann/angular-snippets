@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-keypress="$1"
+]]></content>
+	<tabTrigger>keypress</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-keypress</description>
+</snippet>
