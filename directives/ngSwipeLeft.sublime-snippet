@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ng-swipe-left="$1"
+]]></content>
+	<tabTrigger>swipeleft</tabTrigger>
+	<scope>text.html meta.tag</scope>
+	<description>angular ng-swipe-left</description>
+</snippet>
