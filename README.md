@@ -1,6 +1,7 @@
 # Angular.js Snippets for Sublime Text 2
 
 This snippet library provides completions for Angular.js’s stable and unstable branch.
+Sublime Text uses fuzzy searching for snippets in JavaScript therefore you don’t have to write the complete trigger.
 
 Snippet Categories:
 - [Directives](#directives-html-attributes)
@@ -12,9 +13,11 @@ Snippet Categories:
 - Package Control: install the package "Angular.js Snippets"
 - Manual: copy files to the Sublime packages folder
 
-## Directives (HTML attributes)
+## Directives
 
-html standard attributes are suffixed with `a`, e.g. `classa`
+Except for ng-pluralize these snippets are designed to work as attributes only.
+HTML standard attributes are suffixed with `a`, e.g. `classa`.
+Directive snippet triggers have to be typed completely as Sublime Text 2 doesn’t provide fuzzy searching for HTML files.
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
