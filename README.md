@@ -93,47 +93,47 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>config</th><td><pre>config(function(|) {
+	<tr><th>config</th><td><pre>config([function() {
 	|
-});</pre></td></tr>
-	<tr><th>constant</th><td><pre>constant('{name}', {value});</pre></td></tr>
-	<tr><th>ctrl, controller</th><td><pre>controller('{Name}Ctrl', function({$scope}) {
+}])</pre></td></tr>
+	<tr><th>constant</th><td><pre>constant('{name}', {value})</pre></td></tr>
+	<tr><th>ctrl, controller</th><td><pre>controller('{Name}Ctrl', [function({$scope}) {
 	|
-});</pre></td></tr>
-	<tr><th>decorator</th><td><pre>decorator('{name}', function($provide) {
-	$provide.decorator('{name}', function($delegate) {
+}])</pre></td></tr>
+	<tr><th>decorator</th><td><pre>decorator('{name}', [function($provide) {
+	$provide.decorator('{name}', [function($delegate) {
 		return {$delegate}|;
-	});
-});</pre></td></tr>
-	<tr><th>directive</th><td><pre>directive('{name}', function {name}Factory(|) {
-  return {
-	restrict: '{A}',
-	link(scope, iElement, iAttrs) {
-		|
+	}]);
+}])</pre></td></tr>
+	<tr><th>directive</th><td><pre>directive('{name}', [function {name}Factory() {
+	return {
+		restrict: '{A}',
+		link(scope, iElement, iAttrs) {
+			|
 	}
   };
-});</pre></td></tr>
-	<tr><th>factory</th><td><pre>factory('{name}', function {name}Get(|) {
+}])</pre></td></tr>
+	<tr><th>factory</th><td><pre>factory('{name}', [function {name}Get() {
 	|
 
 	return {
 
 	};
-});</pre></td></tr>
-	<tr><th>provider</th><td><pre>provider('{name}', function {name}Constructor(|) {
+}])</pre></td></tr>
+	<tr><th>provider</th><td><pre>provider('{name}', [function {name}Constructor() {
 	|
 
-	this.$get = function() {
+	this.$get = [function() {
 		return {
 
 		};
-	};
-});</pre></td></tr>
-	<tr><th>run</th><td><pre>run(function(|) {
+	}];
+}])</pre></td></tr>
+	<tr><th>run</th><td><pre>run([function() {
 	|
-});</pre></td></tr>
-	<tr><th>service</th><td><pre>service('{name}', function {name}Constructor(|) {
+}])</pre></td></tr>
+	<tr><th>service</th><td><pre>service('{name}', [function {name}Constructor() {
 	|
-});</pre></td></tr>
-	<tr><th>value</th><td><pre>value('{name}', {value});</pre></td></tr>
+}])</pre></td></tr>
+	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
 </table>

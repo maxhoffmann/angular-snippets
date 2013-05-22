@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-factory('${1:name}', function ${1:name}Get($2) {
+factory('${1:name}', [$3function ${1:name}Get($2) {
 	$0
 
 	return {
 
 	};
-});
+}])
 ]]></content>
 	<tabTrigger>factory</tabTrigger>
 	<scope>source.js</scope>

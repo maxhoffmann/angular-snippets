@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-service('${1:name}', function ${1:name}Constructor($2) {
+service('${1:name}', [$3function ${1:name}Constructor($2) {
 	$0
-});
+}])
 ]]></content>
 	<tabTrigger>service</tabTrigger>
 	<scope>source.js</scope>
