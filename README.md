@@ -112,7 +112,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 			|
 		}
 	};
- }])</pre></td></tr>
+}])</pre></td></tr>
 	<tr><th>factory</th><td><pre>factory('{name}', [function {name}Get() {
 	|
 
