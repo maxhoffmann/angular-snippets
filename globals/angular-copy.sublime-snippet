@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.copy(${1:source}${2:, ${3:destination}})
+]]></content>
+	<tabTrigger>acopy</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular copy</description>
+</snippet>

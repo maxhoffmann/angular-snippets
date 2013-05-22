@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.lowercase(${1:string})
+]]></content>
+	<tabTrigger>alowercase</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular lowercase</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.fromJson(${1:jsonString})
+]]></content>
+	<tabTrigger>afromjson</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular fromJson</description>
+</snippet>

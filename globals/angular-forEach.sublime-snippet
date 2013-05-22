@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.forEach(${1:obj}, ${2:iterator}$3)
+]]></content>
+	<tabTrigger>aforeach</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular forEach</description>
+</snippet>

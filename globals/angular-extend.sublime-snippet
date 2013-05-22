@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.extend(${1:destination}, ${2:source})
+]]></content>
+	<tabTrigger>aextend</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular extend</description>
+</snippet>

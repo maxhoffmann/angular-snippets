@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.equals(${1:obj1}, ${2:obj2})
+]]></content>
+	<tabTrigger>aequals</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular equals</description>
+</snippet>

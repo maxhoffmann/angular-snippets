@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.isDate(${1:value})
+]]></content>
+	<tabTrigger>aisdate</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular isDate</description>
+</snippet>

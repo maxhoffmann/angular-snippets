@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-angular.module('${1:moduleName}', [$2]);
+angular.module('${1:moduleName}', [$2])
 ]]></content>
 	<tabTrigger>amodule</tabTrigger>
 	<scope>source.js</scope>

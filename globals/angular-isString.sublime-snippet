@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.isString(${1:value})
+]]></content>
+	<tabTrigger>aisstring</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular isString</description>
+</snippet>

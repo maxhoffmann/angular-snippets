@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.isArray(${1:value})
+]]></content>
+	<tabTrigger>aisarray</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular isArray</description>
+</snippet>

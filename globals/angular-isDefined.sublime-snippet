@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.isDefined(${1:value})
+]]></content>
+	<tabTrigger>aisdefined</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular isDefined</description>
+</snippet>

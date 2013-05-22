@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+angular.noop
+]]></content>
+	<tabTrigger>anoop</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular noop</description>
+</snippet>
