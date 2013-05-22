@@ -111,7 +111,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 		link(scope, iElement, iAttrs) {
 			|
 		}
-	}
+	};
  }])</pre></td></tr>
 	<tr><th>factory</th><td><pre>factory('{name}', [function {name}Get() {
 	|
