@@ -11,6 +11,8 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
+	<tr><th>animate</th><td>ng-animate="{enter: '{example}-enter', leave: '{example}-leave'}"</td></tr>
+	<tr><th>animates</th><td>ng-animate="'{class-prefix}'"</td></tr>
 	<tr><th>app</th><td>ng-app="|"</td></tr>
 	<tr><th>bind</th><td>ng-bind="|"</td></tr>
 	<tr><th>bindh</th><td>ng-bind-html-unsafe="|"</td></tr>
@@ -28,8 +30,12 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>form<span style="color: green">a</span></th><td>ng-form="|"</td></tr>
 	<tr><th>hide</th><td>ng-hide="|"</td></tr>
 	<tr><th>href<span style="color: green">a</span></th><td>ng-href="|"</td></tr>
+	<tr><th>if</th><td>ng-if="|"</td></tr>
 	<tr><th>include</th><td>ng-include="{template}" {onload="|" autoscroll="|"}</td></tr>
 	<tr><th>init</th><td>ng-init="|"</td></tr>
+	<tr><th>keydown</th><td>ng-keydown="|"</td></tr>
+	<tr><th>keypress</th><td>ng-keypress="|"</td></tr>
+	<tr><th>keyup</th><td>ng-keyup="|"</td></tr>
 	<tr><th>list</th><td>ng-list="|"</td></tr>
 	<tr><th>model</th><td>ng-model="|"</td></tr>
 	<tr><th>mousedown</th><td>ng-mousedown="|"</td></tr>
@@ -40,6 +46,7 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>mouseup</th><td>ng-mouseup="|"</td></tr>
 	<tr><th>multiple</th><td>ng-multiple="|"</td></tr>
 	<tr><th>nbind</th><td>ng-non-bindable="|"</td></tr>
+	<tr><th>open</th><td>ng-open="|"</td></tr>
 	<tr><th>pluralize</th><td>&lt;ng-pluralize count="|" when="'|': '{}'"&gt;&lt;/ng-pluralize&gt;</td></tr>
 	<tr><th>readonly<span style="color: green">a</span></th><td>ng-readonly="|"</td></tr>
 	<tr><th>repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
@@ -48,6 +55,8 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 	<tr><th>src<span style="color: green">a</span></th><td>ng-src="|"</td></tr>
 	<tr><th>style<span style="color: green">a</span></th><td>ng-style="|"</td></tr>
 	<tr><th>submit</th><td>ng-submit="|"</td></tr>
+	<tr><th>swipeleft</th><td>ng-swipe-left="|"</td></tr>
+	<tr><th>swiperight</th><td>ng-swipe-right="|"</td></tr>
 	<tr><th>switch</th><td>ng-switch="|" on="|"</td></tr>
 	<tr><th>switchd</th><td>ng-switch-default="|"</td></tr>
 	<tr><th>switchw</th><td>ng-switch-when="|"</td></tr>
@@ -110,6 +119,28 @@ html standard attributes are suffixed with `a`, e.g. `classa`
 		restrict: '{A}',
 		link(scope, iElement, iAttrs) {
 			|
+		}
+	};
+}])</pre></td></tr>
+	<tr><th>directivel</th><td><pre>directive('{name}', [function {name}Factory() {
+		return {|
+		priority: 0,
+		template: '&lt;div&gt;&lt;/div&gt;',
+		templateUrl: 'directive.html',
+		replace: true,
+		transclude: true,
+		restrict: 'A',
+		scope: {},
+		controller: function($scope, $element, $attrs, $transclude, otherInjectables) {
+
+		},
+		compile: function compile(tElement, tAttrs, transclude) {
+			return function postLink(scope, iElement, iAttrs, controller) {
+
+			}
+		},
+		link: function postLink(scope, iElement, iAttrs) {
+
 		}
 	};
 }])</pre></td></tr>
