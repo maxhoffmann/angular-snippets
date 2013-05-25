@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$routeParams
+]]></content>
+	<tabTrigger>routeParams</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular $routeParams</description>
+</snippet>
