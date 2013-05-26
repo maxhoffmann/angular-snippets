@@ -5,7 +5,7 @@ Sublime Text uses fuzzy searching for snippets in JavaScript therefore you donâ€
 
 ## Installation
 
-- Package Control: install the package "AngularJS Snippets"
+- Package Control: install the package "AngularJS Snippets" (not yet available)
 - Manual: copy files to the Sublime packages folder
 
 ## IMPORTANT
