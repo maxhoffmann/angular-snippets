@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-directive('${1:name}', [$3function ${1:name}Factory($2) {
+directive('${1:name}', [$3function ($2) {
 	return {
 		restrict: '${4:A}',
 		link(scope, iElement, iAttrs) {
