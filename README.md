@@ -14,9 +14,9 @@ Completions won’t show in HTML unless you have added this line to your User.su
 
 	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"}, {"selector": "source.js", "characters": "$." }, {"selector": "text.html meta.tag", "characters": " " } ]
 
-This line also ensures to show completions whenever you entered $ oder . in a JavaScript file.
+This line also ensures to show completions whenever you have entered $ oder . in a JavaScript file.
 
-Snippet Categories:
+__Snippet Categories:__
 - [Directives](#directives)
 - [Globals](#globals)
 - [Services](#services)
@@ -24,7 +24,7 @@ Snippet Categories:
 
 ## Directives
 
-Note: triggers are chosen by Sublime Text’s fuzzy searching so you don’t have to type them completely.
+Note: triggers are chosen by Sublime Text’s __fuzzy searching__ so you don’t have to type them completely.
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
