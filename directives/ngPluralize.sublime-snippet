@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<ng-pluralize count="$1" when="{'$2': '${3:\{\}}'}"></ng-pluralize>
+ng-pluralize count="$1" when="{'$2': '${3:\{\}}'}"
 ]]></content>
 	<tabTrigger>pluralize</tabTrigger>
-	<scope>text.html</scope>
+	<scope>text.html meta.tag</scope>
 	<description>angular ng-pluralize</description>
 </snippet>

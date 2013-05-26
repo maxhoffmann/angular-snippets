@@ -15,7 +15,6 @@ Snippet Categories:
 
 ## Directives
 
-Except for ng-pluralize these snippets are designed to work as attributes only.
 HTML standard attributes are suffixed with `a`, e.g. `classa`.
 Directive snippet triggers have to be typed completely as Sublime Text 2 doesnâ€™t provide fuzzy searching for HTML files.
 
@@ -57,7 +56,7 @@ Directive snippet triggers have to be typed completely as Sublime Text 2 doesnâ€
 	<tr><th>multiple</th><td>ng-multiple="|"</td></tr>
 	<tr><th>nbind</th><td>ng-non-bindable="|"</td></tr>
 	<tr><th>open</th><td>ng-open="|"</td></tr>
-	<tr><th>pluralize</th><td>&lt;ng-pluralize count="|" when="'|': '{}'"&gt;&lt;/ng-pluralize&gt;</td></tr>
+	<tr><th>pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"</td></tr>
 	<tr><th>readonly<span style="color: green">a</span></th><td>ng-readonly="|"</td></tr>
 	<tr><th>repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
 	<tr><th>selected<span style="color: green">a</span></th><td>ng-selected="|"</td></tr>
