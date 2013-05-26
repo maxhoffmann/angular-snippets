@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$locationProvider
+locationProvider
 ]]></content>
 	<tabTrigger>locationProvider</tabTrigger>
 	<scope>source.js</scope>

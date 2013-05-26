@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$routeProvider
+routeProvider
 ]]></content>
 	<tabTrigger>routeProvider</tabTrigger>
 	<scope>source.js</scope>

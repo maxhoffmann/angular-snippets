@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+rootScope
+]]></content>
+	<tabTrigger>rootScope</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular $rootScope</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+resource
+]]></content>
+	<tabTrigger>resource</tabTrigger>
+	<scope>source.js</scope>
+	<description>angular $resource</description>
+</snippet>

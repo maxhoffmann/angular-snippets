@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$route
+route
 ]]></content>
 	<tabTrigger>route</tabTrigger>
 	<scope>source.js</scope>
