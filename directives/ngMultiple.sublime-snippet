@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-multiple="$1"
-]]></content>
-	<tabTrigger>multiple</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-multiple</description>
-</snippet>

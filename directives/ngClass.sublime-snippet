@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-class="$1"
-]]></content>
-	<tabTrigger>classa</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-class</description>
-</snippet>

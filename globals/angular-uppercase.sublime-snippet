@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.uppercase(${1:string})
-]]></content>
-	<tabTrigger>auppercase</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular uppercase</description>
-</snippet>

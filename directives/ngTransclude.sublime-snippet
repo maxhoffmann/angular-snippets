@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-transclude
-]]></content>
-	<tabTrigger>transclude</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-transclude</description>
-</snippet>

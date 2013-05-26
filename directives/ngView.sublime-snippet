@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-view
-]]></content>
-	<tabTrigger>view</tabTrigger>
-	<scope>text.html</scope>
-	<description>angular ng-view</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.identity()
-]]></content>
-	<tabTrigger>aidentity</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular identity</description>
-</snippet>

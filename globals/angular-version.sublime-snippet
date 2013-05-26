@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.version
-]]></content>
-	<tabTrigger>aversion</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular version</description>
-</snippet>

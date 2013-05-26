@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-class-even="$1"
-]]></content>
-	<tabTrigger>classe</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-class-even</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-click="$1"
-]]></content>
-	<tabTrigger>click</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-click</description>
-</snippet>

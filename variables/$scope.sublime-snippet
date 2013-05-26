@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-scope
-]]></content>
-	<tabTrigger>scope</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular $scope</description>
-</snippet>

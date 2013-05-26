@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-addClass('${1:className}')
-]]></content>
-	<tabTrigger>addClass</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular addClass</description>
-</snippet>

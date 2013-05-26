@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-animate="{enter: '${1:example}-enter', leave: '${1:example}-leave'}"
-]]></content>
-	<tabTrigger>animate</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular animate</description>
-</snippet>

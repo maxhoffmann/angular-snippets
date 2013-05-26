@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-route
-]]></content>
-	<tabTrigger>route</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular $route</description>
-</snippet>

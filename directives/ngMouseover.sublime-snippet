@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-mouseover="$1"
-]]></content>
-	<tabTrigger>mouseover</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-mouseover</description>
-</snippet>

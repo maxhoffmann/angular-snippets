@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-show="$1"
-]]></content>
-	<tabTrigger>show</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-show</description>
-</snippet>

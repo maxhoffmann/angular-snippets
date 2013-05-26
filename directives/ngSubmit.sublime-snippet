@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-submit="$1"
-]]></content>
-	<tabTrigger>submita</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-submit</description>
-</snippet>

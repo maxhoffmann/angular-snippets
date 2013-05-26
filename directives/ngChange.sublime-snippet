@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-change="$1"
-]]></content>
-	<tabTrigger>change</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-change</description>
-</snippet>

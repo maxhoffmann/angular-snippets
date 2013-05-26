@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-readonly="$1"
-]]></content>
-	<tabTrigger>readonlya</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-readonly</description>
-</snippet>

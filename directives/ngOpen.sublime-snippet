@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-open="$1"
-]]></content>
-	<tabTrigger>open</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-open</description>
-</snippet>

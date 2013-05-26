@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.toJson(${1:obj}${2:, true})
-]]></content>
-	<tabTrigger>atoJson</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular toJson</description>
-</snippet>

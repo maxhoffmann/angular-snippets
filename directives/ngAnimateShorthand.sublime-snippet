@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-animate="'${1:class-prefix}'"
-]]></content>
-	<tabTrigger>animates</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular animate shorthand</description>
-</snippet>

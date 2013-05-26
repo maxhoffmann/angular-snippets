@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-controller="${1:Name}Ctrl"
-]]></content>
-	<tabTrigger>controller</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-controller</description>
-</snippet>

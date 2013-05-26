@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.injector([${1:modules}])
-]]></content>
-	<tabTrigger>ainjector</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular injector</description>
-</snippet>

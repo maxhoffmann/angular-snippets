@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-bind-html-unsafe="$1"
-]]></content>
-	<tabTrigger>bindh</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-bind-html-unsafe</description>
-</snippet>

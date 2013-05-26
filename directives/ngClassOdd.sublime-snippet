@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-class-odd="$1"
-]]></content>
-	<tabTrigger>classo</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-class-odd</description>
-</snippet>

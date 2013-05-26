@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-keyup="$1"
-]]></content>
-	<tabTrigger>keyup</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-keyup</description>
-</snippet>

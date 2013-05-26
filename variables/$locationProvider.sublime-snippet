@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-locationProvider
-]]></content>
-	<tabTrigger>locationProvider</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular $locationProvider</description>
-</snippet>

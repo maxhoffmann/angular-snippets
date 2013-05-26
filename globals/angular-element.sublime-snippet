@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.element(${1:element})
-]]></content>
-	<tabTrigger>aelement</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular element</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.bootstrap(${1:element}${2:, [${3:modules}]})
-]]></content>
-	<tabTrigger>abootstrap</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular bootstrap</description>
-</snippet>

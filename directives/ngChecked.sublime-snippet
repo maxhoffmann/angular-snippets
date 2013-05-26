@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-checked="$1"
-]]></content>
-	<tabTrigger>checkeda</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-checked</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-mouseleave="$1"
-]]></content>
-	<tabTrigger>mouseleave</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-mouseleave</description>
-</snippet>

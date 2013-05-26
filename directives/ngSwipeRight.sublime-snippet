@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ng-swipe-right="$1"
-]]></content>
-	<tabTrigger>swiperight</tabTrigger>
-	<scope>text.html meta.tag</scope>
-	<description>angular ng-swipe-right</description>
-</snippet>

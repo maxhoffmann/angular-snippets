@@ -6,7 +6,8 @@ Sublime Text uses fuzzy searching for snippets in JavaScript therefore you donâ€
 Snippet Categories:
 - [Directives](#directives-html-attributes)
 - [Globals](#globals)
-- [Services And Types](#services--types)
+- [Services](#services)
+- [Variables](#variables)
 
 ## Installation
 
@@ -66,7 +67,7 @@ Directive snippet triggers have to be typed completely as Sublime Text 2 doesnâ€
 	<tr><th>submit</th><td>ng-submit="|"</td></tr>
 	<tr><th>swipeleft</th><td>ng-swipe-left="|"</td></tr>
 	<tr><th>swiperight</th><td>ng-swipe-right="|"</td></tr>
-	<tr><th>switch</th><td>ng-switch="|" on="|"</td></tr>
+	<tr><th>switch</th><td>ng-switch on="|"</td></tr>
 	<tr><th>switchd</th><td>ng-switch-default="|"</td></tr>
 	<tr><th>switchw</th><td>ng-switch-when="|"</td></tr>
 	<tr><th>transclude</th><td>ng-transclude</td></tr>
@@ -77,34 +78,34 @@ Directive snippet triggers have to be typed completely as Sublime Text 2 doesnâ€
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>abind</th><td><pre>angular.bind({self}, {function}|)</pre></td></tr>
-	<tr><th>abootstrap</th><td><pre>angular.bootstrap({element}{, [{modules}]})</pre></td></tr>
-	<tr><th>acopy</th><td><pre>angular.copy({source}{, {destination}})</pre></td></tr>
-	<tr><th>aelement</th><td><pre>angular.element({element})</pre></td></tr>
-	<tr><th>aequals</th><td><pre>angular.equals({obj1}, {obj2})</pre></td></tr>
-	<tr><th>abind</th><td><pre>angular.extend({destination}, {source})</pre></td></tr>
-	<tr><th>abind</th><td><pre>angular.forEach({obj}, {iterator}|)</pre></td></tr>
-	<tr><th>abind</th><td><pre>angular.fromJson({jsonString})</pre></td></tr>
-	<tr><th>abind</th><td><pre>angular.identity()</pre></td></tr>
-	<tr><th>abind</th><td><pre>angular.injector([{modules}])</pre></td></tr>
-	<tr><th>aisarray</th><td><pre>angular.isArray({value})</pre></td></tr>
-	<tr><th>aisdate</th><td><pre>angular.isDate({value})</pre></td></tr>
-	<tr><th>aisdefined</th><td><pre>angular.isDefined({value})</pre></td></tr>
-	<tr><th>aiselement</th><td><pre>angular.isElement({value})</pre></td></tr>
-	<tr><th>aisfunction</th><td><pre>angular.isFunction({value})</pre></td></tr>
-	<tr><th>aisnumber</th><td><pre>angular.isNumber({value})</pre></td></tr>
-	<tr><th>aisobject</th><td><pre>angular.isObject({value})</pre></td></tr>
-	<tr><th>aisstring</th><td><pre>angular.isString({value})</pre></td></tr>
-	<tr><th>aisundefined</th><td><pre>angular.isUndefined({value})</pre></td></tr>
-	<tr><th>alowercase</th><td><pre>angular.lowercase({string})</pre></td></tr>
-	<tr><th>amodule</th><td><pre>angular.module('{moduleName}', [|])</pre></td></tr>
-	<tr><th>anoop</th><td><pre>angular.noop</pre></td></tr>
-	<tr><th>atojson</th><td><pre>angular.toJson({string})</pre></td></tr>
-	<tr><th>auppercase</th><td><pre>angular.uppercase({string})</pre></td></tr>
-	<tr><th>aversion</th><td><pre>angular.version</pre></td></tr>
+	<tr><th>bind</th><td><pre>angular.bind({self}, {function}|)</pre></td></tr>
+	<tr><th>bootstrap</th><td><pre>angular.bootstrap({element}{, [{modules}]})</pre></td></tr>
+	<tr><th>copy</th><td><pre>angular.copy({source}{, {destination}})</pre></td></tr>
+	<tr><th>element</th><td><pre>angular.element({element})</pre></td></tr>
+	<tr><th>equals</th><td><pre>angular.equals({obj1}, {obj2})</pre></td></tr>
+	<tr><th>extend</th><td><pre>angular.extend({destination}, {source})</pre></td></tr>
+	<tr><th>forEach</th><td><pre>angular.forEach({obj}, {iterator}|)</pre></td></tr>
+	<tr><th>fromJson</th><td><pre>angular.fromJson({jsonString})</pre></td></tr>
+	<tr><th>identity</th><td><pre>angular.identity()</pre></td></tr>
+	<tr><th>injector</th><td><pre>angular.injector([{modules}])</pre></td></tr>
+	<tr><th>isArray</th><td><pre>angular.isArray({value})</pre></td></tr>
+	<tr><th>isDate</th><td><pre>angular.isDate({value})</pre></td></tr>
+	<tr><th>isDefined</th><td><pre>angular.isDefined({value})</pre></td></tr>
+	<tr><th>isElement</th><td><pre>angular.isElement({value})</pre></td></tr>
+	<tr><th>isFunction</th><td><pre>angular.isFunction({value})</pre></td></tr>
+	<tr><th>isNumber</th><td><pre>angular.isNumber({value})</pre></td></tr>
+	<tr><th>isObject</th><td><pre>angular.isObject({value})</pre></td></tr>
+	<tr><th>isString</th><td><pre>angular.isString({value})</pre></td></tr>
+	<tr><th>isUndefined</th><td><pre>angular.isUndefined({value})</pre></td></tr>
+	<tr><th>lowercase</th><td><pre>angular.lowercase({string})</pre></td></tr>
+	<tr><th>module</th><td><pre>angular.module('{moduleName}', [|])</pre></td></tr>
+	<tr><th>noop</th><td><pre>angular.noop</pre></td></tr>
+	<tr><th>toJson</th><td><pre>angular.toJson({string})</pre></td></tr>
+	<tr><th>uppercase</th><td><pre>angular.uppercase({string})</pre></td></tr>
+	<tr><th>version</th><td><pre>angular.version</pre></td></tr>
 </table>
 
-## Services & Types
+## Services
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
@@ -174,3 +175,26 @@ Directive snippet triggers have to be typed completely as Sublime Text 2 doesnâ€
 }])</pre></td></tr>
 	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
 </table>
+
+## Variables
+
+- anchorScroll
+- animation
+- animator
+- cacheFactory
+- compile
+- controller
+- exceptionHandler
+- location
+- locationProvider
+- log
+- parse
+- resource
+- rootElement
+- rootScope
+- route
+- routeParams
+- routeProvider
+- templateCache
+- timeout
+- scope

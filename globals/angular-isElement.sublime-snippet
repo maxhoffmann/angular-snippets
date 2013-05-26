@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-angular.isElement(${1:value})
-]]></content>
-	<tabTrigger>aiselement</tabTrigger>
-	<scope>source.js</scope>
-	<description>angular isElement</description>
-</snippet>
