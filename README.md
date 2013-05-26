@@ -24,8 +24,6 @@ __Snippet Categories:__
 
 ## Directives
 
-Note: triggers are chosen by Sublime Text’s __fuzzy searching__ so you don’t have to type them completely.
-
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
 	<tr><th>ng-animate</th><td>ng-animate="{enter: '{example}-enter', leave: '{example}-leave'}"</td></tr>
