@@ -1,7 +1,7 @@
 # Angular.js Snippets for Sublime Text 2
 
 This snippet library provides completions for Angular.js’s stable and unstable branch.
-Sublime Text uses fuzzy searching for snippets in JavaScript therefore you don’t have to write the complete trigger.
+Sublime Text uses fuzzy searching for snippets and completions therefore you don’t have to write triggers completely.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Completions won’t show in HTML unless you have added this line to your User.su
 
 	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"}, {"selector": "source.js", "characters": "$." }, {"selector": "text.html meta.tag", "characters": " " } ]
 
-This line also ensures to show completions whenever you have entered $ oder . in a JavaScript file.
+This line also ensures to show completions whenever you have entered $ or . in a JavaScript file.
 
 __Snippet Categories:__
 - [Directives](#directives)
