@@ -115,38 +115,38 @@ __Snippet Categories:__
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>.addClass</th><td><pre>.addClass(${1:className})"</pre></td></tr>
-	<tr><th>.after</th><td><pre>.after(${1:el})"</pre></td></tr>
-	<tr><th>.append</th><td><pre>.append(${1:el})"</pre></td></tr>
-	<tr><th>.attr</th><td><pre>.attr(${1:el})"</pre></td></tr>
-	<tr><th>.bind</th><td><pre>.bind(${1:eventType}${2:, eventData}${3:, eventHandler})"</pre></td></tr>
+	<tr><th>.addClass</th><td><pre>.addClass({className})"</pre></td></tr>
+	<tr><th>.after</th><td><pre>.after({el})"</pre></td></tr>
+	<tr><th>.append</th><td><pre>.append({el})"</pre></td></tr>
+	<tr><th>.attr</th><td><pre>.attr({el})"</pre></td></tr>
+	<tr><th>.bind</th><td><pre>.bind({eventType}{, eventData}{, eventHandler})"</pre></td></tr>
 	<tr><th>.children</th><td><pre>.children()"</pre></td></tr>
-	<tr><th>.clone</th><td><pre>.clone(${1:withDataAndEvents})"</pre></td></tr>
-	<tr><th>.contents</th><td><pre>.contents(${1:withDataAndEvents})"</pre></td></tr>
-	<tr><th>.css</th><td><pre>.css(${1:propertyName(s)})"</pre></td></tr>
-	<tr><th>.data</th><td><pre>.data(${1:key, value | obj})"</pre></td></tr>
-	<tr><th>.eq</th><td><pre>.eq(${1:index})"</pre></td></tr>
-	<tr><th>.find</th><td><pre>.find(${1:tag})"</pre></td></tr>
-	<tr><th>.hasClass</th><td><pre>.hasClass(${1:className})"</pre></td></tr>
+	<tr><th>.clone</th><td><pre>.clone({withDataAndEvents})"</pre></td></tr>
+	<tr><th>.contents</th><td><pre>.contents({withDataAndEvents})"</pre></td></tr>
+	<tr><th>.css</th><td><pre>.css({propertyName(s)})"</pre></td></tr>
+	<tr><th>.data</th><td><pre>.data({key, value | obj})"</pre></td></tr>
+	<tr><th>.eq</th><td><pre>.eq({index})"</pre></td></tr>
+	<tr><th>.find</th><td><pre>.find({tag})"</pre></td></tr>
+	<tr><th>.hasClass</th><td><pre>.hasClass({className})"</pre></td></tr>
 	<tr><th>.html</th><td><pre>.html()"</pre></td></tr>
 	<tr><th>.next</th><td><pre>.next()"</pre></td></tr>
 	<tr><th>.parent</th><td><pre>.parent()"</pre></td></tr>
-	<tr><th>.prepend</th><td><pre>.prepend(${1:content})"</pre></td></tr>
-	<tr><th>.prop</th><td><pre>.prop(${1:propertyName})"</pre></td></tr>
-	<tr><th>.ready</th><td><pre>.ready(${1:handler})"</pre></td></tr>
-	<tr><th>.remove</th><td><pre>.remove(${1:selector})"</pre></td></tr>
-	<tr><th>.removeAttr</th><td><pre>.removeAttr(${1:attributeName})"</pre></td></tr>
-	<tr><th>.removeClass</th><td><pre>.removeClass(${1:className})"</pre></td></tr>
-	<tr><th>.removeData</th><td><pre>.removeData(${1:name})"</pre></td></tr>
-	<tr><th>.replaceWith</th><td><pre>.replaceWith(${1:newContent})"</pre></td></tr>
+	<tr><th>.prepend</th><td><pre>.prepend({content})"</pre></td></tr>
+	<tr><th>.prop</th><td><pre>.prop({propertyName})"</pre></td></tr>
+	<tr><th>.ready</th><td><pre>.ready({handler})"</pre></td></tr>
+	<tr><th>.remove</th><td><pre>.remove({selector})"</pre></td></tr>
+	<tr><th>.removeAttr</th><td><pre>.removeAttr({attributeName})"</pre></td></tr>
+	<tr><th>.removeClass</th><td><pre>.removeClass({className})"</pre></td></tr>
+	<tr><th>.removeData</th><td><pre>.removeData({name})"</pre></td></tr>
+	<tr><th>.replaceWith</th><td><pre>.replaceWith({newContent})"</pre></td></tr>
 	<tr><th>.text</th><td><pre>.text()"</pre></td></tr>
-	<tr><th>.toggleClass</th><td><pre>.toggleClass(${1:className})"</pre></td></tr>
-	<tr><th>.triggerHandler</th><td><pre>.triggerHandler(${1:eventType})"</pre></td></tr>
-	<tr><th>.unbind</th><td><pre>.unbind(${1:eventType}{2:, handler})"</pre></td></tr>
-	<tr><th>.val</th><td><pre>.val(${1:eventType}{2:, handler})"</pre></td></tr>
-	<tr><th>.wrap</th><td><pre>.wrap(${1:wrappingElement})"</pre></td></tr>
+	<tr><th>.toggleClass</th><td><pre>.toggleClass({className})"</pre></td></tr>
+	<tr><th>.triggerHandler</th><td><pre>.triggerHandler({eventType})"</pre></td></tr>
+	<tr><th>.unbind</th><td><pre>.unbind({eventType{, handler})"</pre></td></tr>
+	<tr><th>.val</th><td><pre>.val({eventType{, handler})"</pre></td></tr>
+	<tr><th>.wrap</th><td><pre>.wrap({wrappingElement})"</pre></td></tr>
 
-	<tr><th>.controller</th><td><pre>.controller(${1:name})"</pre></td></tr>
+	<tr><th>.controller</th><td><pre>.controller({name})"</pre></td></tr>
 	<tr><th>.injector</th><td><pre>.injector()"</pre></td></tr>
 	<tr><th>.scope</th><td><pre>.scope()"</pre></td></tr>
 	<tr><th>.inheritedData</th><td><pre>.inheritedData()"</pre></td></tr>
