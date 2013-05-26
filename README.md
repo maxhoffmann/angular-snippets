@@ -17,67 +17,81 @@ Completions won’t show in HTML unless you have added this line to your User.su
 This line also ensures to show completions whenever you have entered $ or . in a JavaScript file.
 
 __Snippet Categories:__
-- [Directives](#directives)
+- [Services](#services)
 - [Globals](#globals)
 - [jQuery lite](#jquery-lite)
-- [Services](#services)
+- [Directives](#directives)
 - [Variables](#variables)
 
-## Directives
+## Services
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>ng-animate</th><td>ng-animate="{enter: '{example}-enter', leave: '{example}-leave'}"</td></tr>
-	<tr><th>ng-animates</th><td>ng-animate="'{class-prefix}'"</td></tr>
-	<tr><th>ng-app</th><td>ng-app="|"</td></tr>
-	<tr><th>ng-bind</th><td>ng-bind="|"</td></tr>
-	<tr><th>ng-bind-html-unsafe</th><td>ng-bind-html-unsafe="|"</td></tr>
-	<tr><th>ng-bind-template</th><td>ng-bind-template="|"</td></tr>
-	<tr><th>ng-change</th><td>ng-change="|"</td></tr>
-	<tr><th>ng-checked</th><td>ng-checked="|"</td></tr>
-	<tr><th>ng-class</th><td>ng-class="|"</td></tr>
-	<tr><th>ng-class-even</th><td>ng-class-even="|"</td></tr>
-	<tr><th>ng-class-odd</th><td>ng-class-odd="|"</td></tr>
-	<tr><th>ng-click</th><td>ng-click="|"</td></tr>
-	<tr><th>ng-cloak</th><td>ng-cloak</td></tr>
-	<tr><th>ng-controller</th><td>ng-controller="{Name}Ctrl"</td></tr>
-	<tr><th>ng-dblclick</th><td>ng-dblclick="|"</td></tr>
-	<tr><th>ng-disabled</th><td>ng-disabled="|"</td></tr>
-	<tr><th>ng-form</th><td>ng-form="|"</td></tr>
-	<tr><th>ng-hide</th><td>ng-hide="|"</td></tr>
-	<tr><th>ng-href</th><td>ng-href="|"</td></tr>
-	<tr><th>ng-if</th><td>ng-if="|"</td></tr>
-	<tr><th>ng-include</th><td>ng-include="{template}" {onload="|" autoscroll="|"}</td></tr>
-	<tr><th>ng-init</th><td>ng-init="|"</td></tr>
-	<tr><th>ng-keydown</th><td>ng-keydown="|"</td></tr>
-	<tr><th>ng-keypress</th><td>ng-keypress="|"</td></tr>
-	<tr><th>ng-keyup</th><td>ng-keyup="|"</td></tr>
-	<tr><th>ng-list</th><td>ng-list="|"</td></tr>
-	<tr><th>ng-model</th><td>ng-model="|"</td></tr>
-	<tr><th>ng-mousedown</th><td>ng-mousedown="|"</td></tr>
-	<tr><th>ng-mouseenter</th><td>ng-mouseenter="|"</td></tr>
-	<tr><th>ng-mouseleave</th><td>ng-mouseleave="|"</td></tr>
-	<tr><th>ng-mousemove</th><td>ng-mousemove="|"</td></tr>
-	<tr><th>ng-mouseover</th><td>ng-mouseover="|"</td></tr>
-	<tr><th>ng-mouseup</th><td>ng-mouseup="|"</td></tr>
-	<tr><th>ng-multiple</th><td>ng-multiple="|"</td></tr>
-	<tr><th>ng-nbind</th><td>ng-non-bindable="|"</td></tr>
-	<tr><th>ng-open</th><td>ng-open="|"</td></tr>
-	<tr><th>ng-pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"</td></tr>
-	<tr><th>ng-readonly</th><td>ng-readonly="|"</td></tr>
-	<tr><th>ng-repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
-	<tr><th>ng-selected</th><td>ng-selected="|"</td></tr>
-	<tr><th>ng-show</th><td>ng-show="|"</td></tr>
-	<tr><th>ng-src</th><td>ng-src="|"</td></tr>
-	<tr><th>ng-style</th><td>ng-style="|"</td></tr>
-	<tr><th>ng-submit</th><td>ng-submit="|"</td></tr>
-	<tr><th>ng-swipe-left</th><td>ng-swipe-left="|"</td></tr>
-	<tr><th>ng-swipe-right</th><td>ng-swipe-right="|"</td></tr>
-	<tr><th>ng-switch</th><td>ng-switch on="|"</td></tr>
-	<tr><th>ng-switch-default</th><td>ng-switch-default="|"</td></tr>
-	<tr><th>ng-switch-when</th><td>ng-switch-when="|"</td></tr>
-	<tr><th>ng-transclude</th><td>ng-transclude</td></tr>
-	<tr><th>ng-view</th><td>ng-view</td></tr>
+	<tr><th>config</th><td><pre>config([function() {
+	|
+}])</pre></td></tr>
+	<tr><th>constant</th><td><pre>constant('{name}', {value})</pre></td></tr>
+	<tr><th>controller</th><td><pre>controller('{Name}Ctrl', [function ({$scope}) {
+	|
+}])</pre></td></tr>
+	<tr><th>decorator</th><td><pre>decorator('{name}', [function ($provide) {
+	$provide.decorator('{name}', [function($delegate) {
+		return {$delegate}|;
+	}]);
+}])</pre></td></tr>
+	<tr><th>directive</th><td><pre>directive('{name}', [function () {
+	return {
+		restrict: '{A}',
+		link(scope, iElement, iAttrs) {
+			|
+		}
+	};
+}])</pre></td></tr>
+	<tr><th>directivelong</th><td><pre>directive('{name}', [function () {
+	return {|
+		priority: 0,
+		template: '&lt;div&gt;&lt;/div&gt;',
+		templateUrl: 'directive.html',
+		replace: true,
+		transclude: true,
+		restrict: 'A',
+		scope: {},
+		controller: function($scope, $element, $attrs, $transclude, otherInjectables) {
+
+		},
+		compile: function compile(tElement, tAttrs, transclude) {
+			return function postLink(scope, iElement, iAttrs, controller) {
+
+			}
+		},
+		link: function postLink(scope, iElement, iAttrs) {
+
+		}
+	};
+}])</pre></td></tr>
+	<tr><th>factory</th><td><pre>factory('{name}', [function () {
+	|
+
+	return {
+
+	};
+}])</pre></td></tr>
+	<tr><th>provider</th><td><pre>provider('{name}', [function () {
+	|
+
+	this.$get = [function() {
+		return {
+
+		};
+	}];
+}])</pre></td></tr>
+	<tr><th>run</th><td><pre>run([function() {
+	|
+}])</pre></td></tr>
+	<tr><th>service</th><td><pre>service('{name}', [function () {
+	|
+}])</pre></td></tr>
+	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
 </table>
 
 ## Globals
@@ -152,75 +166,61 @@ __Snippet Categories:__
 	<tr><th>.inheritedData</th><td><pre>.inheritedData()</pre></td></tr>
 </table>
 
-## Services
+## Directives
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>config</th><td><pre>config([function() {
-	|
-}])</pre></td></tr>
-	<tr><th>constant</th><td><pre>constant('{name}', {value})</pre></td></tr>
-	<tr><th>controller</th><td><pre>controller('{Name}Ctrl', [function ({$scope}) {
-	|
-}])</pre></td></tr>
-	<tr><th>decorator</th><td><pre>decorator('{name}', [function ($provide) {
-	$provide.decorator('{name}', [function($delegate) {
-		return {$delegate}|;
-	}]);
-}])</pre></td></tr>
-	<tr><th>directive</th><td><pre>directive('{name}', [function () {
-	return {
-		restrict: '{A}',
-		link(scope, iElement, iAttrs) {
-			|
-		}
-	};
-}])</pre></td></tr>
-	<tr><th>directivelong</th><td><pre>directive('{name}', [function () {
-	return {|
-		priority: 0,
-		template: '&lt;div&gt;&lt;/div&gt;',
-		templateUrl: 'directive.html',
-		replace: true,
-		transclude: true,
-		restrict: 'A',
-		scope: {},
-		controller: function($scope, $element, $attrs, $transclude, otherInjectables) {
-
-		},
-		compile: function compile(tElement, tAttrs, transclude) {
-			return function postLink(scope, iElement, iAttrs, controller) {
-
-			}
-		},
-		link: function postLink(scope, iElement, iAttrs) {
-
-		}
-	};
-}])</pre></td></tr>
-	<tr><th>factory</th><td><pre>factory('{name}', [function () {
-	|
-
-	return {
-
-	};
-}])</pre></td></tr>
-	<tr><th>provider</th><td><pre>provider('{name}', [function () {
-	|
-
-	this.$get = [function() {
-		return {
-
-		};
-	}];
-}])</pre></td></tr>
-	<tr><th>run</th><td><pre>run([function() {
-	|
-}])</pre></td></tr>
-	<tr><th>service</th><td><pre>service('{name}', [function () {
-	|
-}])</pre></td></tr>
-	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
+	<tr><th>ng-animate</th><td>ng-animate="{enter: '{example}-enter', leave: '{example}-leave'}"</td></tr>
+	<tr><th>ng-animates</th><td>ng-animate="'{class-prefix}'"</td></tr>
+	<tr><th>ng-app</th><td>ng-app="|"</td></tr>
+	<tr><th>ng-bind</th><td>ng-bind="|"</td></tr>
+	<tr><th>ng-bind-html-unsafe</th><td>ng-bind-html-unsafe="|"</td></tr>
+	<tr><th>ng-bind-template</th><td>ng-bind-template="|"</td></tr>
+	<tr><th>ng-change</th><td>ng-change="|"</td></tr>
+	<tr><th>ng-checked</th><td>ng-checked="|"</td></tr>
+	<tr><th>ng-class</th><td>ng-class="|"</td></tr>
+	<tr><th>ng-class-even</th><td>ng-class-even="|"</td></tr>
+	<tr><th>ng-class-odd</th><td>ng-class-odd="|"</td></tr>
+	<tr><th>ng-click</th><td>ng-click="|"</td></tr>
+	<tr><th>ng-cloak</th><td>ng-cloak</td></tr>
+	<tr><th>ng-controller</th><td>ng-controller="{Name}Ctrl"</td></tr>
+	<tr><th>ng-dblclick</th><td>ng-dblclick="|"</td></tr>
+	<tr><th>ng-disabled</th><td>ng-disabled="|"</td></tr>
+	<tr><th>ng-form</th><td>ng-form="|"</td></tr>
+	<tr><th>ng-hide</th><td>ng-hide="|"</td></tr>
+	<tr><th>ng-href</th><td>ng-href="|"</td></tr>
+	<tr><th>ng-if</th><td>ng-if="|"</td></tr>
+	<tr><th>ng-include</th><td>ng-include="{template}" {onload="|" autoscroll="|"}</td></tr>
+	<tr><th>ng-init</th><td>ng-init="|"</td></tr>
+	<tr><th>ng-keydown</th><td>ng-keydown="|"</td></tr>
+	<tr><th>ng-keypress</th><td>ng-keypress="|"</td></tr>
+	<tr><th>ng-keyup</th><td>ng-keyup="|"</td></tr>
+	<tr><th>ng-list</th><td>ng-list="|"</td></tr>
+	<tr><th>ng-model</th><td>ng-model="|"</td></tr>
+	<tr><th>ng-mousedown</th><td>ng-mousedown="|"</td></tr>
+	<tr><th>ng-mouseenter</th><td>ng-mouseenter="|"</td></tr>
+	<tr><th>ng-mouseleave</th><td>ng-mouseleave="|"</td></tr>
+	<tr><th>ng-mousemove</th><td>ng-mousemove="|"</td></tr>
+	<tr><th>ng-mouseover</th><td>ng-mouseover="|"</td></tr>
+	<tr><th>ng-mouseup</th><td>ng-mouseup="|"</td></tr>
+	<tr><th>ng-multiple</th><td>ng-multiple="|"</td></tr>
+	<tr><th>ng-nbind</th><td>ng-non-bindable="|"</td></tr>
+	<tr><th>ng-open</th><td>ng-open="|"</td></tr>
+	<tr><th>ng-pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"</td></tr>
+	<tr><th>ng-readonly</th><td>ng-readonly="|"</td></tr>
+	<tr><th>ng-repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
+	<tr><th>ng-selected</th><td>ng-selected="|"</td></tr>
+	<tr><th>ng-show</th><td>ng-show="|"</td></tr>
+	<tr><th>ng-src</th><td>ng-src="|"</td></tr>
+	<tr><th>ng-style</th><td>ng-style="|"</td></tr>
+	<tr><th>ng-submit</th><td>ng-submit="|"</td></tr>
+	<tr><th>ng-swipe-left</th><td>ng-swipe-left="|"</td></tr>
+	<tr><th>ng-swipe-right</th><td>ng-swipe-right="|"</td></tr>
+	<tr><th>ng-switch</th><td>ng-switch on="|"</td></tr>
+	<tr><th>ng-switch-default</th><td>ng-switch-default="|"</td></tr>
+	<tr><th>ng-switch-when</th><td>ng-switch-when="|"</td></tr>
+	<tr><th>ng-transclude</th><td>ng-transclude</td></tr>
+	<tr><th>ng-view</th><td>ng-view</td></tr>
 </table>
 
 ## Variables
