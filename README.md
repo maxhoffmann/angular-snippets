@@ -33,18 +33,18 @@ __Snippet Categories:__
 	<tr><th>ng-bind-html-unsafe</th><td>ng-bind-html-unsafe="|"</td></tr>
 	<tr><th>ng-bind-template</th><td>ng-bind-template="|"</td></tr>
 	<tr><th>ng-change</th><td>ng-change="|"</td></tr>
-	<tr><th>ng-checked<span style="color: green">a</span></th><td>ng-checked="|"</td></tr>
-	<tr><th>ng-class<span style="color: green">a</span></th><td>ng-class="|"</td></tr>
+	<tr><th>ng-checked</th><td>ng-checked="|"</td></tr>
+	<tr><th>ng-class</th><td>ng-class="|"</td></tr>
 	<tr><th>ng-class-even</th><td>ng-class-even="|"</td></tr>
 	<tr><th>ng-class-odd</th><td>ng-class-odd="|"</td></tr>
 	<tr><th>ng-click</th><td>ng-click="|"</td></tr>
 	<tr><th>ng-cloak</th><td>ng-cloak</td></tr>
 	<tr><th>ng-controller</th><td>ng-controller="{Name}Ctrl"</td></tr>
 	<tr><th>ng-dblclick</th><td>ng-dblclick="|"</td></tr>
-	<tr><th>ng-disabled<span style="color: green">a</span></th><td>ng-disabled="|"</td></tr>
-	<tr><th>ng-form<span style="color: green">a</span></th><td>ng-form="|"</td></tr>
+	<tr><th>ng-disabled</th><td>ng-disabled="|"</td></tr>
+	<tr><th>ng-form</th><td>ng-form="|"</td></tr>
 	<tr><th>ng-hide</th><td>ng-hide="|"</td></tr>
-	<tr><th>ng-href<span style="color: green">a</span></th><td>ng-href="|"</td></tr>
+	<tr><th>ng-href</th><td>ng-href="|"</td></tr>
 	<tr><th>ng-if</th><td>ng-if="|"</td></tr>
 	<tr><th>ng-include</th><td>ng-include="{template}" {onload="|" autoscroll="|"}</td></tr>
 	<tr><th>ng-init</th><td>ng-init="|"</td></tr>
@@ -63,18 +63,18 @@ __Snippet Categories:__
 	<tr><th>ng-nbind</th><td>ng-non-bindable="|"</td></tr>
 	<tr><th>ng-open</th><td>ng-open="|"</td></tr>
 	<tr><th>ng-pluralize</th><td>ng-pluralize count="|" when="'|': '{}'"</td></tr>
-	<tr><th>ng-readonly<span style="color: green">a</span></th><td>ng-readonly="|"</td></tr>
+	<tr><th>ng-readonly</th><td>ng-readonly="|"</td></tr>
 	<tr><th>ng-repeat</th><td>ng-repeat="{item} in {array}"</td></tr>
-	<tr><th>ng-selected<span style="color: green">a</span></th><td>ng-selected="|"</td></tr>
+	<tr><th>ng-selected</th><td>ng-selected="|"</td></tr>
 	<tr><th>ng-show</th><td>ng-show="|"</td></tr>
-	<tr><th>ng-src<span style="color: green">a</span></th><td>ng-src="|"</td></tr>
-	<tr><th>ng-style<span style="color: green">a</span></th><td>ng-style="|"</td></tr>
+	<tr><th>ng-src</th><td>ng-src="|"</td></tr>
+	<tr><th>ng-style</th><td>ng-style="|"</td></tr>
 	<tr><th>ng-submit</th><td>ng-submit="|"</td></tr>
-	<tr><th>ng-swipeleft</th><td>ng-swipe-left="|"</td></tr>
-	<tr><th>ng-swiperight</th><td>ng-swipe-right="|"</td></tr>
+	<tr><th>ng-swipe-left</th><td>ng-swipe-left="|"</td></tr>
+	<tr><th>ng-swipe-right</th><td>ng-swipe-right="|"</td></tr>
 	<tr><th>ng-switch</th><td>ng-switch on="|"</td></tr>
-	<tr><th>ng-switchd</th><td>ng-switch-default="|"</td></tr>
-	<tr><th>ng-switchw</th><td>ng-switch-when="|"</td></tr>
+	<tr><th>ng-switch-default</th><td>ng-switch-default="|"</td></tr>
+	<tr><th>ng-switch-when</th><td>ng-switch-when="|"</td></tr>
 	<tr><th>ng-transclude</th><td>ng-transclude</td></tr>
 	<tr><th>ng-view</th><td>ng-view</td></tr>
 </table>
