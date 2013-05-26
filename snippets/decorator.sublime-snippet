@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-decorator('${1:name}', ['\$provide', $3function(\$provide$2) {
+decorator('${1:name}', ['\$provide', $3function (\$provide$2) {
 	\$provide.decorator('${4:name}', ['\$delegate', $6function(\$delegate$5) {
 		return ${7:\$delegate}$0;
 	}]);

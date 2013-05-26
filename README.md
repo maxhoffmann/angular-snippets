@@ -118,15 +118,15 @@ __Snippet Categories:__
 	|
 }])</pre></td></tr>
 	<tr><th>constant</th><td><pre>constant('{name}', {value})</pre></td></tr>
-	<tr><th>controller</th><td><pre>controller('{Name}Ctrl', [function({$scope}) {
+	<tr><th>controller</th><td><pre>controller('{Name}Ctrl', [function ({$scope}) {
 	|
 }])</pre></td></tr>
-	<tr><th>decorator</th><td><pre>decorator('{name}', [function($provide) {
+	<tr><th>decorator</th><td><pre>decorator('{name}', [function ($provide) {
 	$provide.decorator('{name}', [function($delegate) {
 		return {$delegate}|;
 	}]);
 }])</pre></td></tr>
-	<tr><th>directive</th><td><pre>directive('{name}', [function {name}Factory() {
+	<tr><th>directive</th><td><pre>directive('{name}', [function () {
 	return {
 		restrict: '{A}',
 		link(scope, iElement, iAttrs) {
@@ -134,7 +134,7 @@ __Snippet Categories:__
 		}
 	};
 }])</pre></td></tr>
-	<tr><th>directivelong</th><td><pre>directive('{name}', [function {name}Factory() {
+	<tr><th>directivelong</th><td><pre>directive('{name}', [function () {
 	return {|
 		priority: 0,
 		template: '&lt;div&gt;&lt;/div&gt;',
@@ -156,14 +156,14 @@ __Snippet Categories:__
 		}
 	};
 }])</pre></td></tr>
-	<tr><th>factory</th><td><pre>factory('{name}', [function {name}Get() {
+	<tr><th>factory</th><td><pre>factory('{name}', [function () {
 	|
 
 	return {
 
 	};
 }])</pre></td></tr>
-	<tr><th>provider</th><td><pre>provider('{name}', [function {name}Constructor() {
+	<tr><th>provider</th><td><pre>provider('{name}', [function () {
 	|
 
 	this.$get = [function() {
@@ -175,7 +175,7 @@ __Snippet Categories:__
 	<tr><th>run</th><td><pre>run([function() {
 	|
 }])</pre></td></tr>
-	<tr><th>service</th><td><pre>service('{name}', [function {name}Constructor() {
+	<tr><th>service</th><td><pre>service('{name}', [function () {
 	|
 }])</pre></td></tr>
 	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>

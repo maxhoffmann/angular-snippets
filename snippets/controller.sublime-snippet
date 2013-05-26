@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-controller('${1:Name}Ctrl', ['${2:\$scope}', $4function(${2:\$scope}$3) {
+controller('${1:Name}Ctrl', ['${2:\$scope}', $4function (${2:\$scope}$3) {
 	$0
 }])
 ]]></content>

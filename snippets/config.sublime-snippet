@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-config([$2function($1) {
+config([$2function ($1) {
 	$0
 }])
 ]]></content>
