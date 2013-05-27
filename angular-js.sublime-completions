@@ -56,13 +56,13 @@
 	    { "trigger": ".$id", "contents": ".$id" },
 
 	    // logging functions
-	    { "trigger": "$log.debug", "contents": "$log.debug('${1:debug}')" },
-	    { "trigger": "$log.error", "contents": "$log.error('${1:error}')" },
-	    { "trigger": "$log.info", "contents": "$log.info('${1:info}')" },
-	    { "trigger": "$log.log", "contents": "$log.log('${1:log}')" },
-	    { "trigger": "$log.warn", "contents": "$log.warn('${1:warning}')" },
-	    { "trigger": "$log.assertEmpty", "contents": "$log.assertEmpty()" },
-	    { "trigger": "$log.reset", "contents": "$log.reset()" },
+	    { "trigger": "log.debug", "contents": "log.debug('${1:debug}')" },
+	    { "trigger": "log.error", "contents": "log.error('${1:error}')" },
+	    { "trigger": "log.info", "contents": "log.info('${1:info}')" },
+	    { "trigger": "log.log", "contents": "log.log('${1:log}')" },
+	    { "trigger": "log.warn", "contents": "log.warn('${1:warning}')" },
+	    { "trigger": "log.assertEmpty", "contents": "log.assertEmpty()" },
+	    { "trigger": "log.reset", "contents": "log.reset()" },
 
 	    // global functions
 	    { "trigger": "angular.bind", "contents": "angular.bind(${1:self}, ${2:function})" },

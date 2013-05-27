@@ -247,13 +247,13 @@ __Snippet Categories:__
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>$log.debug</th><td><pre>$log.debug('${1:debug}')</pre></td></tr>
-	<tr><th>$log.error</th><td><pre>$log.error('${1:error}')</pre></td></tr>
-	<tr><th>$log.info</th><td><pre>$log.info('${1:info}')</pre></td></tr>
-	<tr><th>$log.log</th><td><pre>$log.log('${1:log}')</pre></td></tr>
-	<tr><th>$log.warn</th><td><pre>$log.warn('${1:warning}')</pre></td></tr>
-	<tr><th>$log.assertEmpty</th><td><pre>$log.assertEmpty()</pre></td></tr>
-	<tr><th>$log.reset</th><td><pre>$log.reset()</pre></td></tr>
+	<tr><th>log.debug</th><td><pre>log.debug('${1:debug}')</pre></td></tr>
+	<tr><th>log.error</th><td><pre>log.error('${1:error}')</pre></td></tr>
+	<tr><th>log.info</th><td><pre>log.info('${1:info}')</pre></td></tr>
+	<tr><th>log.log</th><td><pre>log.log('${1:log}')</pre></td></tr>
+	<tr><th>log.warn</th><td><pre>log.warn('${1:warning}')</pre></td></tr>
+	<tr><th>log.assertEmpty</th><td><pre>log.assertEmpty()</pre></td></tr>
+	<tr><th>log.reset</th><td><pre>log.reset()</pre></td></tr>
 </table>
 
 ## Variables
