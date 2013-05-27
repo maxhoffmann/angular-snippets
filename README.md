@@ -21,6 +21,7 @@ __Snippet Categories:__
 - [Directives](#directives)
 - [Globals](#globals)
 - [jQuery lite](#jquery-lite)
+- [Scope functions](#scope-functions)
 - [Log functions](#log-functions)
 - [Variables](#variables)
 
@@ -222,6 +223,24 @@ __Snippet Categories:__
 	<tr><th>.injector</th><td><pre>.injector()</pre></td></tr>
 	<tr><th>.scope</th><td><pre>.scope()</pre></td></tr>
 	<tr><th>.inheritedData</th><td><pre>.inheritedData()</pre></td></tr>
+</table>
+
+## Scope functions
+
+<table>
+	<tr><th>trigger</th><th>completion</th></tr>
+	<tr><th>.$apply</th><td><pre>.$apply({exp})</pre></td></tr>
+	<tr><th>.$broadcast</th><td><pre>.$broadcast({name}{, args})</pre></td></tr>
+	<tr><th>.$destroy</th><td><pre>.$destroy()</pre></td></tr>
+	<tr><th>.$digest</th><td><pre>.$digest()</pre></td></tr>
+	<tr><th>.$emit</th><td><pre>.$emit({name}{, args})</pre></td></tr>
+	<tr><th>.$eval</th><td><pre>.$eval({expression})</pre></td></tr>
+	<tr><th>.$evalAsync</th><td><pre>.$evalAsync({expression})</pre></td></tr>
+	<tr><th>.$new</th><td><pre>.$new({isolate})</pre></td></tr>
+	<tr><th>.$on</th><td><pre>.$on({name}, {listener})</pre></td></tr>
+	<tr><th>.$watch</th><td><pre>.$watch({watchExpression}{, listener}{, objectEquality})</pre></td></tr>
+	<tr><th>.$watchCollection</th><td><pre>.$watchCollection({obj}, {listener})</pre></td></tr>
+	<tr><th>.$id</th><td><pre>.$id</pre></td></tr>
 </table>
 
 # Log functions
