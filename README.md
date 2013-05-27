@@ -238,7 +238,7 @@ __Snippet Categories:__
 	<tr><th>.$evalAsync</th><td><pre>.$evalAsync({expression})</pre></td></tr>
 	<tr><th>.$new</th><td><pre>.$new({isolate})</pre></td></tr>
 	<tr><th>.$on</th><td><pre>.$on({name}, {listener})</pre></td></tr>
-	<tr><th>.$watch</th><td><pre>.$watch({watchExpression}{, listener}${3:, objectEquality})</pre></td></tr>
+	<tr><th>.$watch</th><td><pre>.$watch({watchExpression}{, listener}{, objectEquality})</pre></td></tr>
 	<tr><th>.$watchCollection</th><td><pre>.$watchCollection({obj}, {listener})</pre></td></tr>
 	<tr><th>.$id</th><td><pre>.$id</pre></td></tr>
 </table>
