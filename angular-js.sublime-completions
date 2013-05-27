@@ -41,6 +41,29 @@
 	    { "trigger": ".scope", "contents": ".scope()" },
 	    { "trigger": ".inheritedData", "contents": ".inheritedData()" },
 
+	    // scope functions
+	    { "trigger": ".$apply", "contents": ".$apply(${1:exp})" },
+	    { "trigger": ".$broadcast", "contents": ".$broadcast(${1:name}${2:, args})" },
+	    { "trigger": ".$destroy", "contents": ".$destroy()" },
+	    { "trigger": ".$digest", "contents": ".$digest()" },
+	    { "trigger": ".$emit", "contents": ".$emit(${1:name}${2:, args})" },
+	    { "trigger": ".$eval", "contents": ".$eval(${1:expression})" },
+	    { "trigger": ".$evalAsync", "contents": ".$evalAsync(${1:expression})" },
+	    { "trigger": ".$new", "contents": ".$new(${1:isolate})" },
+	    { "trigger": ".$on", "contents": ".$on(${1:name}, ${2:listener})" },
+	    { "trigger": ".$watch", "contents": ".$watch(${1:watchExpression}${2:, listener}${3:, objectEquality})" },
+	    { "trigger": ".$watchCollection", "contents": ".$watchCollection(${1:obj}, ${2:listener})" },
+	    { "trigger": ".$id", "contents": ".$id" },
+
+	    // logging functions
+	    { "trigger": "$log.debug", "contents": "$log.debug('${1:debug}')" },
+	    { "trigger": "$log.error", "contents": "$log.error('${1:error}')" },
+	    { "trigger": "$log.info", "contents": "$log.info('${1:info}')" },
+	    { "trigger": "$log.log", "contents": "$log.log('${1:log}')" },
+	    { "trigger": "$log.warn", "contents": "$log.warn('${1:warning}')" },
+	    { "trigger": "$log.assertEmpty", "contents": "$log.assertEmpty()" },
+	    { "trigger": "$log.reset", "contents": "$log.reset()" },
+
 	    // global functions
 	    { "trigger": "angular.bind", "contents": "angular.bind(${1:self}, ${2:function})" },
 	    { "trigger": "angular.bootstrap", "contents": "angular.bootstrap(${1:element}${2:, [${3:modules}]})" },
