@@ -3,6 +3,7 @@
 
     "completions":
     [
+    	// directives
 	    { "trigger": "ng-animate", "contents": "ng-animate=\"{enter: '${1:example}-enter', leave: '${1:example}-leave'}\""},
 	    { "trigger": "ng-animate shorthand", "contents": "ng-animate=\"'${1:class-prefix}'\""},
 	    { "trigger": "ng-app", "contents": "ng-app=\"$1\""},

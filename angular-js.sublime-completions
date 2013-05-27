@@ -3,6 +3,7 @@
 
     "completions":
     [
+    	// jQuery Lite
 	    { "trigger": ".addClass", "contents": ".addClass(${1:className})" },
 	    { "trigger": ".after", "contents": ".after(${1:el})" },
 	    { "trigger": ".append", "contents": ".append(${1:el})" },
@@ -34,11 +35,13 @@
 	    { "trigger": ".val", "contents": ".val(${1:eventType}{2:, handler})" },
 	    { "trigger": ".wrap", "contents": ".wrap(${1:wrappingElement})" },
 
+	    // special jQuery Lite functions
 	    { "trigger": ".controller", "contents": ".controller(${1:name})" },
 	    { "trigger": ".injector", "contents": ".injector()" },
 	    { "trigger": ".scope", "contents": ".scope()" },
 	    { "trigger": ".inheritedData", "contents": ".inheritedData()" },
 
+	    // global functions
 	    { "trigger": "angular.bind", "contents": "angular.bind(${1:self}, ${2:function})" },
 	    { "trigger": "angular.bootstrap", "contents": "angular.bootstrap(${1:element}${2:, [${3:modules}]})" },
 	    { "trigger": "angular.copy", "contents": "angular.copy(${1:source}${2:, ${3:destination}})" },
@@ -64,6 +67,7 @@
 	    { "trigger": "angular.uppercase", "contents": "angular.uppercase(${1:string})" },
 	    { "trigger": "angular.version", "contents": "angular.version" },
 
+	    // variables
         "anchorScroll",
         "animation",
         "animator",
