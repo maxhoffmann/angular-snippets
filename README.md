@@ -229,17 +229,17 @@ __Snippet Categories:__
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>.$apply</th><td><pre>.$apply(${1:exp})</pre></td></tr>
-	<tr><th>.$broadcast</th><td><pre>.$broadcast(${1:name}${2:, args})</pre></td></tr>
+	<tr><th>.$apply</th><td><pre>.$apply({exp})</pre></td></tr>
+	<tr><th>.$broadcast</th><td><pre>.$broadcast({name}{, args})</pre></td></tr>
 	<tr><th>.$destroy</th><td><pre>.$destroy()</pre></td></tr>
 	<tr><th>.$digest</th><td><pre>.$digest()</pre></td></tr>
-	<tr><th>.$emit</th><td><pre>.$emit(${1:name}${2:, args})</pre></td></tr>
-	<tr><th>.$eval</th><td><pre>.$eval(${1:expression})</pre></td></tr>
-	<tr><th>.$evalAsync</th><td><pre>.$evalAsync(${1:expression})</pre></td></tr>
-	<tr><th>.$new</th><td><pre>.$new(${1:isolate})</pre></td></tr>
-	<tr><th>.$on</th><td><pre>.$on(${1:name}, ${2:listener})</pre></td></tr>
-	<tr><th>.$watch</th><td><pre>.$watch(${1:watchExpression}${2:, listener}${3:, objectEquality})</pre></td></tr>
-	<tr><th>.$watchCollection</th><td><pre>.$watchCollection(${1:obj}, ${2:listener})</pre></td></tr>
+	<tr><th>.$emit</th><td><pre>.$emit({name}{, args})</pre></td></tr>
+	<tr><th>.$eval</th><td><pre>.$eval({expression})</pre></td></tr>
+	<tr><th>.$evalAsync</th><td><pre>.$evalAsync({expression})</pre></td></tr>
+	<tr><th>.$new</th><td><pre>.$new({isolate})</pre></td></tr>
+	<tr><th>.$on</th><td><pre>.$on({name}, {listener})</pre></td></tr>
+	<tr><th>.$watch</th><td><pre>.$watch({watchExpression}{, listener}${3:, objectEquality})</pre></td></tr>
+	<tr><th>.$watchCollection</th><td><pre>.$watchCollection({obj}, {listener})</pre></td></tr>
 	<tr><th>.$id</th><td><pre>.$id</pre></td></tr>
 </table>
 
@@ -247,11 +247,11 @@ __Snippet Categories:__
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>log.debug</th><td><pre>log.debug('${1:debug}')</pre></td></tr>
-	<tr><th>log.error</th><td><pre>log.error('${1:error}')</pre></td></tr>
-	<tr><th>log.info</th><td><pre>log.info('${1:info}')</pre></td></tr>
-	<tr><th>log.log</th><td><pre>log.log('${1:log}')</pre></td></tr>
-	<tr><th>log.warn</th><td><pre>log.warn('${1:warning}')</pre></td></tr>
+	<tr><th>log.debug</th><td><pre>log.debug('{debug}')</pre></td></tr>
+	<tr><th>log.error</th><td><pre>log.error('{error}')</pre></td></tr>
+	<tr><th>log.info</th><td><pre>log.info('{info}')</pre></td></tr>
+	<tr><th>log.log</th><td><pre>log.log('{log}')</pre></td></tr>
+	<tr><th>log.warn</th><td><pre>log.warn('{warning}')</pre></td></tr>
 	<tr><th>log.assertEmpty</th><td><pre>log.assertEmpty()</pre></td></tr>
 	<tr><th>log.reset</th><td><pre>log.reset()</pre></td></tr>
 </table>
