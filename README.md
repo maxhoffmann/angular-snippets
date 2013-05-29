@@ -186,94 +186,97 @@ __Snippet Categories:__
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>addClass</th><td><pre>addClass({className})</pre></td></tr>
-	<tr><th>after</th><td><pre>after({el})</pre></td></tr>
-	<tr><th>append</th><td><pre>append({el})</pre></td></tr>
-	<tr><th>attr</th><td><pre>attr({el})</pre></td></tr>
-	<tr><th>bind</th><td><pre>bind({eventType}{, eventData}{, eventHandler})</pre></td></tr>
-	<tr><th>children</th><td><pre>children()</pre></td></tr>
-	<tr><th>clone</th><td><pre>clone({withDataAndEvents})</pre></td></tr>
-	<tr><th>contents</th><td><pre>contents({withDataAndEvents})</pre></td></tr>
-	<tr><th>css</th><td><pre>css({propertyName(s)})</pre></td></tr>
-	<tr><th>data</th><td><pre>data({key, value | obj})</pre></td></tr>
-	<tr><th>eq</th><td><pre>eq({index})</pre></td></tr>
-	<tr><th>find</th><td><pre>find({tag})</pre></td></tr>
-	<tr><th>hasClass</th><td><pre>hasClass({className})</pre></td></tr>
-	<tr><th>html</th><td><pre>html()</pre></td></tr>
-	<tr><th>next</th><td><pre>next()</pre></td></tr>
-	<tr><th>parent</th><td><pre>parent()</pre></td></tr>
-	<tr><th>prepend</th><td><pre>prepend({content})</pre></td></tr>
-	<tr><th>prop</th><td><pre>prop({propertyName})</pre></td></tr>
-	<tr><th>ready</th><td><pre>ready({handler})</pre></td></tr>
-	<tr><th>remove</th><td><pre>remove({selector})</pre></td></tr>
-	<tr><th>removeAttr</th><td><pre>removeAttr({attributeName})</pre></td></tr>
-	<tr><th>removeClass</th><td><pre>removeClass({className})</pre></td></tr>
-	<tr><th>removeData</th><td><pre>removeData({name})</pre></td></tr>
-	<tr><th>replaceWith</th><td><pre>replaceWith({newContent})</pre></td></tr>
-	<tr><th>text</th><td><pre>text()</pre></td></tr>
-	<tr><th>toggleClass</th><td><pre>toggleClass({className})</pre></td></tr>
-	<tr><th>triggerHandler</th><td><pre>triggerHandler({eventType})</pre></td></tr>
-	<tr><th>unbind</th><td><pre>unbind({eventType{, handler})</pre></td></tr>
-	<tr><th>val</th><td><pre>val({eventType{, handler})</pre></td></tr>
-	<tr><th>wrap</th><td><pre>wrap({wrappingElement})</pre></td></tr>
+	<tr><th>angular: addClass</th><td><pre>addClass({className})</pre></td></tr>
+	<tr><th>angular: after</th><td><pre>after({el})</pre></td></tr>
+	<tr><th>angular: append</th><td><pre>append({el})</pre></td></tr>
+	<tr><th>angular: attr</th><td><pre>attr({el})</pre></td></tr>
+	<tr><th>angular: bind</th><td><pre>bind({eventType}{, eventData}{, eventHandler})</pre></td></tr>
+	<tr><th>angular: children</th><td><pre>children()</pre></td></tr>
+	<tr><th>angular: clone</th><td><pre>clone({withDataAndEvents})</pre></td></tr>
+	<tr><th>angular: contents</th><td><pre>contents({withDataAndEvents})</pre></td></tr>
+	<tr><th>angular: css</th><td><pre>css({propertyName(s)})</pre></td></tr>
+	<tr><th>angular: data</th><td><pre>data({key, value | obj})</pre></td></tr>
+	<tr><th>angular: eq</th><td><pre>eq({index})</pre></td></tr>
+	<tr><th>angular: find</th><td><pre>find({tag})</pre></td></tr>
+	<tr><th>angular: hasClass</th><td><pre>hasClass({className})</pre></td></tr>
+	<tr><th>angular: html</th><td><pre>html()</pre></td></tr>
+	<tr><th>angular: next</th><td><pre>next()</pre></td></tr>
+	<tr><th>angular: parent</th><td><pre>parent()</pre></td></tr>
+	<tr><th>angular: prepend</th><td><pre>prepend({content})</pre></td></tr>
+	<tr><th>angular: prop</th><td><pre>prop({propertyName})</pre></td></tr>
+	<tr><th>angular: ready</th><td><pre>ready({handler})</pre></td></tr>
+	<tr><th>angular: remove</th><td><pre>remove({selector})</pre></td></tr>
+	<tr><th>angular: removeAttr</th><td><pre>removeAttr({attributeName})</pre></td></tr>
+	<tr><th>angular: removeClass</th><td><pre>removeClass({className})</pre></td></tr>
+	<tr><th>angular: removeData</th><td><pre>removeData({name})</pre></td></tr>
+	<tr><th>angular: replaceWith</th><td><pre>replaceWith({newContent})</pre></td></tr>
+	<tr><th>angular: text</th><td><pre>text()</pre></td></tr>
+	<tr><th>angular: toggleClass</th><td><pre>toggleClass({className})</pre></td></tr>
+	<tr><th>angular: triggerHandler</th><td><pre>triggerHandler({eventType})</pre></td></tr>
+	<tr><th>angular: unbind</th><td><pre>unbind({eventType{, handler})</pre></td></tr>
+	<tr><th>angular: val</th><td><pre>val({eventType{, handler})</pre></td></tr>
+	<tr><th>angular: wrap</th><td><pre>wrap({wrappingElement})</pre></td></tr>
 
-	<tr><th>controller</th><td><pre>controller({name})</pre></td></tr>
-	<tr><th>injector</th><td><pre>injector()</pre></td></tr>
-	<tr><th>scope</th><td><pre>scope()</pre></td></tr>
-	<tr><th>inheritedData</th><td><pre>inheritedData()</pre></td></tr>
+	<tr><th>angular: controller</th><td><pre>controller({name})</pre></td></tr>
+	<tr><th>angular: injector</th><td><pre>injector()</pre></td></tr>
+	<tr><th>angular: scope</th><td><pre>scope()</pre></td></tr>
+	<tr><th>angular: inheritedData</th><td><pre>inheritedData()</pre></td></tr>
 </table>
 
 ## Scope functions
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>apply</th><td><pre>apply({exp})</pre></td></tr>
-	<tr><th>broadcast</th><td><pre>broadcast({name}{, args})</pre></td></tr>
-	<tr><th>destroy</th><td><pre>destroy()</pre></td></tr>
-	<tr><th>digest</th><td><pre>digest()</pre></td></tr>
-	<tr><th>emit</th><td><pre>emit({name}{, args})</pre></td></tr>
-	<tr><th>eval</th><td><pre>eval({expression})</pre></td></tr>
-	<tr><th>evalAsync</th><td><pre>evalAsync({expression})</pre></td></tr>
-	<tr><th>new</th><td><pre>new({isolate})</pre></td></tr>
-	<tr><th>on</th><td><pre>on({name}, {listener})</pre></td></tr>
-	<tr><th>watch</th><td><pre>watch({watchExpression}{, listener}{, objectEquality})</pre></td></tr>
-	<tr><th>watchCollection</th><td><pre>watchCollection({obj}, {listener})</pre></td></tr>
-	<tr><th>id</th><td><pre>id</pre></td></tr>
+	<tr><th>angular: $apply</th><td><pre>apply({exp})</pre></td></tr>
+	<tr><th>angular: $broadcast</th><td><pre>broadcast({name}{, args})</pre></td></tr>
+	<tr><th>angular: $destroy</th><td><pre>destroy()</pre></td></tr>
+	<tr><th>angular: $digest</th><td><pre>digest()</pre></td></tr>
+	<tr><th>angular: $emit</th><td><pre>emit({name}{, args})</pre></td></tr>
+	<tr><th>angular: $eval</th><td><pre>eval({expression})</pre></td></tr>
+	<tr><th>angular: $evalAsync</th><td><pre>evalAsync({expression})</pre></td></tr>
+	<tr><th>angular: $new</th><td><pre>new({isolate})</pre></td></tr>
+	<tr><th>angular: $on</th><td><pre>on({name}, {listener})</pre></td></tr>
+	<tr><th>angular: $watch</th><td><pre>watch({watchExpression}{, listener}{, objectEquality})</pre></td></tr>
+	<tr><th>angular: $watchCollection</th><td><pre>watchCollection({obj}, {listener})</pre></td></tr>
+	<tr><th>angular: $id</th><td><pre>id</pre></td></tr>
 </table>
 
 # Log functions
 
 <table>
 	<tr><th>trigger</th><th>completion</th></tr>
-	<tr><th>log.debug</th><td><pre>log.debug('{debug}')</pre></td></tr>
-	<tr><th>log.error</th><td><pre>log.error('{error}')</pre></td></tr>
-	<tr><th>log.info</th><td><pre>log.info('{info}')</pre></td></tr>
-	<tr><th>log.log</th><td><pre>log.log('{log}')</pre></td></tr>
-	<tr><th>log.warn</th><td><pre>log.warn('{warning}')</pre></td></tr>
-	<tr><th>log.assertEmpty</th><td><pre>log.assertEmpty()</pre></td></tr>
-	<tr><th>log.reset</th><td><pre>log.reset()</pre></td></tr>
+	<tr><th>angular: $log.debug</th><td><pre>log.debug('{debug}')</pre></td></tr>
+	<tr><th>angular: $log.error</th><td><pre>log.error('{error}')</pre></td></tr>
+	<tr><th>angular: $log.info</th><td><pre>log.info('{info}')</pre></td></tr>
+	<tr><th>angular: $log.log</th><td><pre>log.log('{log}')</pre></td></tr>
+	<tr><th>angular: $log.warn</th><td><pre>log.warn('{warning}')</pre></td></tr>
+	<tr><th>angular: $log.assertEmpty</th><td><pre>log.assertEmpty()</pre></td></tr>
+	<tr><th>angular: $log.reset</th><td><pre>log.reset()</pre></td></tr>
 </table>
 
 ## Variables
 
-- angular
-- anchorScroll
-- animation
-- animator
-- cacheFactory
-- compile
-- controller
-- exceptionHandler
-- location
-- locationProvider
-- log
-- parse
-- resource
-- rootElement
-- rootScope
-- route
-- routeParams
-- routeProvider
-- templateCache
-- timeout
-- scope
+<table>
+	<tr><th>trigger</th><th>completion</th></tr>
+	<tr><th>angular: $angular</th><td><pre>angular</pre></td></tr>
+	<tr><th>angular: $anchorScroll</th><td><pre>anchorScroll</pre></td></tr>
+	<tr><th>angular: $animation</th><td><pre>animation</pre></td></tr>
+	<tr><th>angular: $animator</th><td><pre>animator</pre></td></tr>
+	<tr><th>angular: $cacheFactory</th><td><pre>cacheFactory</pre></td></tr>
+	<tr><th>angular: $compile</th><td><pre>compile</pre></td></tr>
+	<tr><th>angular: $controller</th><td><pre>controller</pre></td></tr>
+	<tr><th>angular: $exceptionHandler</th><td><pre>exceptionHandler</pre></td></tr>
+	<tr><th>angular: $location</th><td><pre>location</pre></td></tr>
+	<tr><th>angular: $locationProvider</th><td><pre>locationProvider</pre></td></tr>
+	<tr><th>angular: $log</th><td><pre>log</pre></td></tr>
+	<tr><th>angular: $parse</th><td><pre>parse</pre></td></tr>
+	<tr><th>angular: $resource</th><td><pre>resource</pre></td></tr>
+	<tr><th>angular: $rootElement</th><td><pre>rootElement</pre></td></tr>
+	<tr><th>angular: $rootScope</th><td><pre>rootScope</pre></td></tr>
+	<tr><th>angular: $route</th><td><pre>route</pre></td></tr>
+	<tr><th>angular: $routeParams</th><td><pre>routeParams</pre></td></tr>
+	<tr><th>angular: $routeProvider</th><td><pre>routeProvider</pre></td></tr>
+	<tr><th>angular: $templateCache</th><td><pre>templateCache</pre></td></tr>
+	<tr><th>angular: $timeout</th><td><pre>timeout</pre></td></tr>
+	<tr><th>angular: $scope</th><td><pre>scope</pre></td></tr>
+</table>
