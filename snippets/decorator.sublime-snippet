@@ -8,5 +8,5 @@ decorator('${1:name}', ['\$provide', $3function (\$provide$2) {
 ]]></content>
 	<tabTrigger>decorator</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular decorator</description>
+	<description>Angular.js</description>
 </snippet>

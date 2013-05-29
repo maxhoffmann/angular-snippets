@@ -6,5 +6,5 @@ config([$2function ($1) {
 ]]></content>
 	<tabTrigger>config</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular service</description>
+	<description>Angular.js</description>
 </snippet>

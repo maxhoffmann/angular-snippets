@@ -10,5 +10,5 @@ factory('${1:name}', [$3function ($2) {
 ]]></content>
 	<tabTrigger>factory</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular factory</description>
+	<description>Angular.js</description>
 </snippet>

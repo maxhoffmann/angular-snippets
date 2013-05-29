@@ -6,5 +6,5 @@ controller('${1:Name}Ctrl', ['${2:\$scope}', $4function (${2:\$scope}$3) {
 ]]></content>
 	<tabTrigger>controller</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular controller</description>
+	<description>Angular.js</description>
 </snippet>

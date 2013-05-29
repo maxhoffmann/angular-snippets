@@ -4,5 +4,5 @@ value('${1:name}', ${2:value})
 ]]></content>
 	<tabTrigger>value</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular value</description>
+	<description>Angular.js</description>
 </snippet>

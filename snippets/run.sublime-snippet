@@ -6,5 +6,5 @@ run([$2function ($1) {
 ]]></content>
 	<tabTrigger>run</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular run</description>
+	<description>Angular.js</description>
 </snippet>

@@ -12,5 +12,5 @@ provider('${1:name}', [$3function ($2) {
 ]]></content>
 	<tabTrigger>provider</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular provider</description>
+	<description>Angular.js</description>
 </snippet>

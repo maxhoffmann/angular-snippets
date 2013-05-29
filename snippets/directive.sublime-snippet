@@ -11,5 +11,5 @@ directive('${1:name}', [$3function ($2) {
 ]]></content>
 	<tabTrigger>directive</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular directive</description>
+	<description>Angular.js</description>
 </snippet>

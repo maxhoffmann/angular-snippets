@@ -25,5 +25,5 @@ ${13:		link: function postLink(scope, iElement, iAttrs) \{
 ]]></content>
 	<tabTrigger>directivelong</tabTrigger>
 	<scope>source.js</scope>
-	<description>angular directive long</description>
+	<description>Angular.js</description>
 </snippet>
