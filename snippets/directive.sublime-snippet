@@ -3,7 +3,7 @@
 directive('${1:name}', [$3function ($2) {
 	return {
 		restrict: '${4:A}',
-		link(scope, iElement, iAttrs) {
+		link: function (scope, iElement, iAttrs) {
 			$0
 		}
 	};
