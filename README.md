@@ -42,7 +42,7 @@ __Snippet Categories:__
 	<tr><th>directive</th><td><pre>directive('{name}', [function () {
 	return {
 		restrict: '{A}',
-		link(scope, iElement, iAttrs) {
+		link: function(scope, iElement, iAttrs) {
 			|
 		}
 	};
