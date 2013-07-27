@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA[
-controller('${1:Name}Ctrl', ['${2:\$scope}', $4function (${2:\$scope}$3) {
-	$0
-}])
+controller('${1:Name}Ctrl', ['${2/,[ ]?/', '/g}',
+  $3function (${2:\$scope}) {
+    $0
+  }
+])
 ]]></content>
 	<tabTrigger>controller</tabTrigger>
 	<scope>source.js</scope>
