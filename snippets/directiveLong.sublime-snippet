@@ -1,23 +1,23 @@
 <snippet>
 	<content><![CDATA[
-directive('${1:name}', [$3function ($2) {
+directive('${1:name}', [${2/(?:.+)/'/g}${2/,[ ]?/', '/g}${2/(?:.+)/', /g}function ($2) {
 	return {$0
-${4:		priority: 0,}
-${5:		template: '<div></div>',}
-${6:		templateUrl: 'directive.html',}
-${7:		replace: true,}
-${8:		transclude: true,}
-${9:		restrict: 'A',}
-${10:		scope: \{\},}
-${11:		controller: function(\$scope, \$element, \$attrs, \$transclude, otherInjectables) \{
+${3:		priority: 0,}
+${4:		template: '<div></div>',}
+${5:		templateUrl: 'directive.html',}
+${6:		replace: true,}
+${7:		transclude: true,}
+${8:		restrict: 'A',}
+${9:		scope: \{\},}
+${10:		controller: function(\$scope, \$element, \$attrs, \$transclude, otherInjectables) \{
 
 		\},}
-${12:		compile: function compile(tElement, tAttrs, transclude) \{
+${11:		compile: function compile(tElement, tAttrs, transclude) \{
 			return function postLink(scope, iElement, iAttrs, controller) \{
 
 			\}
 		\},}
-${13:		link: function postLink(scope, iElement, iAttrs) \{
+${12:		link: function postLink(scope, iElement, iAttrs) \{
 
 		\}}
 	};

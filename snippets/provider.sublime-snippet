@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-provider('${1:name}', [$3function ($2) {
+provider('${1:name}', [${2/(?:.+)/'/g}${2/,[ ]?/', '/g}${2/(?:.+)/', /g}function ($2) {
 	$0
 
-	this.\$get = [$5function($4) {
+	this.\$get = [${3/(?:.+)/'/g}${3/,[ ]?/', '/g}${3/(?:.+)/', /g}function($3) {
 		return {
 
 		};

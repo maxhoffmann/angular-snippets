@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-service('${1:name}', [$3function ($2) {
+service('${1:name}', [${2/(?:.+)/'/g}${2/,[ ]?/', '/g}${2/(?:.+)/', /g}function ($2) {
 	$0
 }])
 ]]></content>
