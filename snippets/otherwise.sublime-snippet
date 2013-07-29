@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[otherwise(${1:{ redirectTo: '/${2:route}' \}})]]></content>
+	<tabTrigger>otherwise</tabTrigger>
+	<scope>source.js</scope>
+	<description>Angular.js</description>
+</snippet>
