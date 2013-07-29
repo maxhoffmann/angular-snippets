@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-directive('${1:name}', [${2/(?:.+)/'/g}${2/,[ ]?/', '/g}${2/(?:.+)/', /g}function ($2) {
+directive('${1:name}', [${2/(?:.+)/'/g}${2/,[ ]*/', '/g}${2/(?:.+)/', /g}function ($2) {
 	return {
 		restrict: '${3:A}',
 		link: function (scope, iElement, iAttrs) {
