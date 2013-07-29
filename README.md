@@ -2,6 +2,7 @@
 
 This snippet library provides completions for Angular.js’s stable and unstable branch.
 Sublime Text uses fuzzy searching for snippets and completions therefore you don’t have to write triggers completely.
+All snippets add Angular’s inline notation for dependencies automatically, so you don’t have to type them twice.
 
 ## Installation
 
@@ -76,6 +77,7 @@ __Snippet Categories:__
 
 	};
 }])</pre></td></tr>
+	<tr><th>otherwise</th><td><pre>otherwise({ redirectTo: '/{route}' })</pre></td></tr>
 	<tr><th>provider</th><td><pre>provider('{name}', [function () {
 	|
 
@@ -92,6 +94,10 @@ __Snippet Categories:__
 	|
 }])</pre></td></tr>
 	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
+	<tr><th>when</th><td><pre>when( '/{name}', {
+	templateUrl: '{name}.html',
+	controller: '{Name}Ctrl'
+})</pre></td></tr>
 </table>
 
 ## Directives
