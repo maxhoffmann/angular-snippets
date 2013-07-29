@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[when( '/${1:route}', {
+	<content><![CDATA[when('/${1:route}', {
 	templateUrl: '${1}.html',
 	controller: '${1/([A-Za-z0-9]+)?/(?2::\u$1)/g}Ctrl'
 })

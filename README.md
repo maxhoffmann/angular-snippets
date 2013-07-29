@@ -94,7 +94,7 @@ __Snippet Categories:__
 	|
 }])</pre></td></tr>
 	<tr><th>value</th><td><pre>value('{name}', {value})</pre></td></tr>
-	<tr><th>when</th><td><pre>when( '/{name}', {
+	<tr><th>when</th><td><pre>when('/{name}', {
 	templateUrl: '{name}.html',
 	controller: '{Name}Ctrl'
 })</pre></td></tr>
