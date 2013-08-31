@@ -287,6 +287,6 @@ __Snippet Categories:__
 	<tr><th>angular: $scope</th><td><pre>scope</pre></td></tr>
 </table>
 
-## LICENCE
+## LICENSE
 
 The MIT License (MIT)
