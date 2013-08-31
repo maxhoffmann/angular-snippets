@@ -286,3 +286,7 @@ __Snippet Categories:__
 	<tr><th>angular: $timeout</th><td><pre>timeout</pre></td></tr>
 	<tr><th>angular: $scope</th><td><pre>scope</pre></td></tr>
 </table>
+
+## LICENCE
+
+The MIT License (MIT)
