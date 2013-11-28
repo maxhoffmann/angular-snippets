@@ -53,6 +53,8 @@
 	    { "trigger": "ng-src", "contents": "ng-src=\"$1\""},
 	    { "trigger": "ng-style", "contents": "ng-style=\"$1\""},
 	    { "trigger": "ng-submit", "contents": "ng-submit=\"$1\""},
+	    { "trigger": "ng-swipe-left", "contents": "ng-swipe-left=\"$1\""},
+	    { "trigger": "ng-swipe-right", "contents": "ng-swipe-right=\"$1\""},
 	    { "trigger": "ng-switch", "contents": "ng-switch on=\"$1\""},
 	    { "trigger": "ng-switch-default", "contents": "ng-switch-default=\"$1\""},
 	    { "trigger": "ng-switch-when", "contents": "ng-switch-when=\"$1\""},
