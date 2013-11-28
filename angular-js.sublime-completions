@@ -84,6 +84,7 @@
 	    { "trigger": "angular.isString", "contents": "angular.isString(${1:value})" },
 	    { "trigger": "angular.isUndefined", "contents": "angular.isUndefined(${1:value})" },
 	    { "trigger": "angular.lowercase", "contents": "angular.lowercase(${1:string})" },
+	    { "trigger": "angular.mock", "contents": "angular.mock" },
 	    { "trigger": "angular.module", "contents": "angular.module('${1:moduleName}', [$2])" },
 	    { "trigger": "angular.noop", "contents": "angular.noop" },
 	    { "trigger": "angular.toJson", "contents": "angular.toJson(${1:obj}${2:, true})" },
