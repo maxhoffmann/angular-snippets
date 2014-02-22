@@ -3,9 +3,7 @@
 
     "completions":
     [
-    	// directives
-	    { "trigger": "ng-animate", "contents": "ng-animate=\"{enter: '${1:example}-enter', leave: '${1:example}-leave'}\""},
-	    { "trigger": "ng-animate shorthand", "contents": "ng-animate=\"'${1:class-prefix}'\""},
+    	// directive
 	    { "trigger": "ng-app", "contents": "ng-app=\"$1\""},
 	    { "trigger": "ng-bind", "contents": "ng-bind=\"$1\""},
 	    { "trigger": "ng-bind-html", "contents": "ng-bind-html=\"$1\""},
@@ -42,23 +40,29 @@
 	    { "trigger": "ng-mousemove", "contents": "ng-mousemove=\"$1\""},
 	    { "trigger": "ng-mouseover", "contents": "ng-mouseover=\"$1\""},
 	    { "trigger": "ng-mouseup", "contents": "ng-mouseup=\"$1\""},
-	    { "trigger": "ng-multiple", "contents": "ng-multiple=\"$1\""},
 	    { "trigger": "ng-non-bindable", "contents": "ng-non-bindable=\"$1\""},
 	    { "trigger": "ng-open", "contents": "ng-open=\"$1\""},
+	    { "trigger": "ng-paste", "contents": "ng-paste=\"$1\""},
 	    { "trigger": "ng-pluralize", "contents": "ng-pluralize count=\"$1\" when=\"{'$2': '$3'}\""},
 	    { "trigger": "ng-readonly", "contents": "ng-readonly=\"$1\""},
 	    { "trigger": "ng-repeat", "contents": "ng-repeat=\"${1:item} in ${2:array}\""},
 	    { "trigger": "ng-selected", "contents": "ng-selected=\"$1\""},
 	    { "trigger": "ng-show", "contents": "ng-show=\"$1\""},
 	    { "trigger": "ng-src", "contents": "ng-src=\"$1\""},
+	    { "trigger": "ng-srcset", "contents": "ng-srcset=\"$1\""},
 	    { "trigger": "ng-style", "contents": "ng-style=\"$1\""},
 	    { "trigger": "ng-submit", "contents": "ng-submit=\"$1\""},
-	    { "trigger": "ng-swipe-left", "contents": "ng-swipe-left=\"$1\""},
-	    { "trigger": "ng-swipe-right", "contents": "ng-swipe-right=\"$1\""},
 	    { "trigger": "ng-switch", "contents": "ng-switch on=\"$1\""},
 	    { "trigger": "ng-switch-default", "contents": "ng-switch-default=\"$1\""},
 	    { "trigger": "ng-switch-when", "contents": "ng-switch-when=\"$1\""},
 	    { "trigger": "ng-transclude", "contents": "ng-transclude"},
-	    { "trigger": "ng-view", "contents": "ng-view"}
+	    { "trigger": "ng-value", "contents": "ng-value"},
+
+	    // ngRoute
+	    { "trigger": "ng-view", "contents": "ng-view"},
+
+	    // ngTouch
+	    { "trigger": "ng-swipe-left", "contents": "ng-swipe-left=\"$1\""},
+	    { "trigger": "ng-swipe-right", "contents": "ng-swipe-right=\"$1\""}
     ]
 }

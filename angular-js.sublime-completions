@@ -3,6 +3,77 @@
 
     "completions":
     [
+    	// ========== ng ==========
+
+	    // function
+	    { "trigger": "angular.bind", "contents": "angular.bind(${1:self}, ${2:function})" },
+	    { "trigger": "angular.bootstrap", "contents": "angular.bootstrap(${1:element}${2:, [${3:modules}]})" },
+	    { "trigger": "angular.copy", "contents": "angular.copy(${1:source}${2:, ${3:destination}})" },
+	    { "trigger": "angular.element", "contents": "angular.element(${1:element})" },
+	    { "trigger": "angular.equals", "contents": "angular.equals(${1:obj1}, ${2:obj2})" },
+	    { "trigger": "angular.extend", "contents": "angular.extend(${1:destination}, ${2:source})" },
+	    { "trigger": "angular.forEach", "contents": "angular.forEach(${1:obj}, ${2:iterator}$3)" },
+	    { "trigger": "angular.fromJson", "contents": "angular.fromJson(${1:jsonString})" },
+	    { "trigger": "angular.identity", "contents": "angular.identity()" },
+	    { "trigger": "angular.injector", "contents": "angular.injector([${1:modules}])" },
+	    { "trigger": "angular.isArray", "contents": "angular.isArray(${1:value})" },
+	    { "trigger": "angular.isDate", "contents": "angular.isDate(${1:value})" },
+	    { "trigger": "angular.isDefined", "contents": "angular.isDefined(${1:value})" },
+	    { "trigger": "angular.isElement", "contents": "angular.isElement(${1:value})" },
+	    { "trigger": "angular.isFunction", "contents": "angular.isFunction(${1:value})" },
+	    { "trigger": "angular.isObject", "contents": "angular.isObject(${1:value})" },
+	    { "trigger": "angular.isString", "contents": "angular.isString(${1:value})" },
+	    { "trigger": "angular.isUndefined", "contents": "angular.isUndefined(${1:value})" },
+	    { "trigger": "angular.lowercase", "contents": "angular.lowercase(${1:string})" },
+	    { "trigger": "angular.module", "contents": "angular.module('${1:moduleName}', [$2])" },
+	    { "trigger": "angular.noop", "contents": "angular.noop" },
+	    { "trigger": "angular.toJson", "contents": "angular.toJson(${1:obj}${2:, true})" },
+	    { "trigger": "angular.uppercase", "contents": "angular.uppercase(${1:string})" },
+
+	    // object
+	    { "trigger": "angular.version", "contents": "angular.version" },
+
+	    // service
+	    { "trigger": "angular: $anchorScroll", "contents": "anchorScroll" },
+	    // { "trigger": "angular: $animate", "contents": "animate" },
+	    { "trigger": "angular: $cacheFactory", "contents": "cacheFactory" },
+	    { "trigger": "angular: $compile", "contents": "compile" },
+	    { "trigger": "angular: $controller", "contents": "controller" },
+	    { "trigger": "angular: $document", "contents": "document" },
+	    { "trigger": "angular: $exceptionHandler", "contents": "exceptionHandler" },
+	    { "trigger": "angular: $filter", "contents": "filter" },
+	    { "trigger": "angular: $http", "contents": "http" },
+	    { "trigger": "angular: $httpBackend", "contents": "httpBackend" },
+	    { "trigger": "angular: $interpolate", "contents": "interpolate" },
+	    { "trigger": "angular: $interval", "contents": "interval" },
+	    { "trigger": "angular: $locale", "contents": "locale" },
+	    { "trigger": "angular: $location", "contents": "location" },
+	    { "trigger": "angular: $log", "contents": "log" },
+	    { "trigger": "angular: $parse", "contents": "parse" },
+	    { "trigger": "angular: $q", "contents": "q" },
+	    { "trigger": "angular: $rootElement", "contents": "rootElement" },
+	    { "trigger": "angular: $rootScope", "contents": "rootScope" },
+	    { "trigger": "angular: $sce", "contents": "sce" },
+	    { "trigger": "angular: $sceDelegate", "contents": "sceDelegate" },
+	    { "trigger": "angular: $templateCache", "contents": "templateCache" },
+	    { "trigger": "angular: $timeout", "contents": "timeout" },
+	    { "trigger": "angular: $window", "contents": "window" },
+
+	    // provider
+	    // { "trigger": "angular: $animateProvider", "contents": "animateProvider" },
+	    { "trigger": "angular: $compileProvider", "contents": "compileProvider" },
+	    { "trigger": "angular: $controllerProvider", "contents": "controllerProvider" },
+	    { "trigger": "angular: $filterProvider", "contents": "filterProvider" },
+	    { "trigger": "angular: $interpolateProvider", "contents": "interpolateProvider" },
+	    { "trigger": "angular: $locationProvider", "contents": "locationProvider" },
+	    { "trigger": "angular: $logProvider", "contents": "logProvider" },
+	    { "trigger": "angular: $parseProvider", "contents": "parseProvider" },
+	    { "trigger": "angular: $rootScopeProvider", "contents": "rootScopeProvider" },
+	    { "trigger": "angular: $sceDelegateProvider", "contents": "sceDelegateProvider" },
+	    { "trigger": "angular: $sceProvider", "contents": "sceProvider" },
+
+	    // ========== angular.element ==========
+
     	// jQuery Lite
 	    { "trigger": "angular: addClass", "contents": "addClass(${1:className})" },
 	    { "trigger": "angular: after", "contents": "after(${1:el})" },
@@ -14,11 +85,15 @@
 	    { "trigger": "angular: contents", "contents": "contents(${1:withDataAndEvents})", "description": "array sort" },
 	    { "trigger": "angular: css", "contents": "css(${1:propertyName(s)})" },
 	    { "trigger": "angular: data", "contents": "data(${1:key, value | obj})" },
+	    { "trigger": "angular: empty", "contents": "empty()" },
 	    { "trigger": "angular: eq", "contents": "eq(${1:index})" },
 	    { "trigger": "angular: find", "contents": "find(${1:tag})" },
 	    { "trigger": "angular: hasClass", "contents": "hasClass(${1:className})" },
 	    { "trigger": "angular: html", "contents": "html()" },
 	    { "trigger": "angular: next", "contents": "next()" },
+	    { "trigger": "angular: on", "contents": "on(${1:event}, ${2:callback})" },
+	    { "trigger": "angular: off", "contents": "off(${1:event}, ${2:callback})" },
+	    { "trigger": "angular: one", "contents": "one(${1:event}, ${2:callback})" },
 	    { "trigger": "angular: parent", "contents": "parent()" },
 	    { "trigger": "angular: prepend", "contents": "prepend(${1:content})" },
 	    { "trigger": "angular: prop", "contents": "prop(${1:propertyName})" },
@@ -39,7 +114,10 @@
 	    { "trigger": "angular: controller", "contents": "controller(${1:name})" },
 	    { "trigger": "angular: injector", "contents": "injector()" },
 	    { "trigger": "angular: scope", "contents": "scope()" },
+	    { "trigger": "angular: isolateScope", "contents": "isolateScope()" },
 	    { "trigger": "angular: inheritedData", "contents": "inheritedData()" },
+
+	    // ========== $rootScope.Scope ==========
 
 	    // scope functions
 	    { "trigger": "angular: $apply", "contents": "apply(${1:exp})" },
@@ -64,53 +142,63 @@
 	    { "trigger": "angular: $log.assertEmpty", "contents": "log.assertEmpty()" },
 	    { "trigger": "angular: $log.reset", "contents": "log.reset()" },
 
-	    // global functions
-	    { "trigger": "angular.bind", "contents": "angular.bind(${1:self}, ${2:function})" },
-	    { "trigger": "angular.bootstrap", "contents": "angular.bootstrap(${1:element}${2:, [${3:modules}]})" },
-	    { "trigger": "angular.copy", "contents": "angular.copy(${1:source}${2:, ${3:destination}})" },
-	    { "trigger": "angular.element", "contents": "angular.element(${1:element})" },
-	    { "trigger": "angular.equals", "contents": "angular.equals(${1:obj1}, ${2:obj2})" },
-	    { "trigger": "angular.extend", "contents": "angular.extend(${1:destination}, ${2:source})" },
-	    { "trigger": "angular.forEach", "contents": "angular.forEach(${1:obj}, ${2:iterator}$3)" },
-	    { "trigger": "angular.fromJson", "contents": "angular.fromJson(${1:jsonString})" },
-	    { "trigger": "angular.identity", "contents": "angular.identity()" },
-	    { "trigger": "angular.injector", "contents": "angular.injector([${1:modules}])" },
-	    { "trigger": "angular.isArray", "contents": "angular.isArray(${1:value})" },
-	    { "trigger": "angular.isDate", "contents": "angular.isDate(${1:value})" },
-	    { "trigger": "angular.isDefined", "contents": "angular.isDefined(${1:value})" },
-	    { "trigger": "angular.isElement", "contents": "angular.isElement(${1:value})" },
-	    { "trigger": "angular.isFunction", "contents": "angular.isFunction(${1:value})" },
-	    { "trigger": "angular.isObject", "contents": "angular.isObject(${1:value})" },
-	    { "trigger": "angular.isString", "contents": "angular.isString(${1:value})" },
-	    { "trigger": "angular.isUndefined", "contents": "angular.isUndefined(${1:value})" },
-	    { "trigger": "angular.lowercase", "contents": "angular.lowercase(${1:string})" },
-	    { "trigger": "angular.mock", "contents": "angular.mock" },
-	    { "trigger": "angular.module", "contents": "angular.module('${1:moduleName}', [$2])" },
-	    { "trigger": "angular.noop", "contents": "angular.noop" },
-	    { "trigger": "angular.toJson", "contents": "angular.toJson(${1:obj}${2:, true})" },
-	    { "trigger": "angular.uppercase", "contents": "angular.uppercase(${1:string})" },
-	    { "trigger": "angular.version", "contents": "angular.version" },
+	    // ========== ngAnimate ==========
 
-	    // variables
-	    { "trigger": "angular: $anchorScroll", "contents": "anchorScroll" },
-	    { "trigger": "angular: $animation", "contents": "animation" },
-	    { "trigger": "angular: $animator", "contents": "animator" },
-	    { "trigger": "angular: $cacheFactory", "contents": "cacheFactory" },
-	    { "trigger": "angular: $compile", "contents": "compile" },
-	    { "trigger": "angular: $controller", "contents": "controller" },
-	    { "trigger": "angular: $exceptionHandler", "contents": "exceptionHandler" },
-	    { "trigger": "angular: $location", "contents": "location" },
-	    { "trigger": "angular: $locationProvider", "contents": "locationProvider" },
-	    { "trigger": "angular: $log", "contents": "log" },
-	    { "trigger": "angular: $parse", "contents": "parse" },
+	    // provider
+	    { "trigger": "angular: $animateProvider", "contents": "animateProvider" },
+
+	    // service
+	    { "trigger": "angular: $animate", "contents": "animate" },
+
+
+	    // ========== ngCookies ==========
+
+	    // service
+	    { "trigger": "angular: $cookieStore", "contents": "cookieStore" },
+	    { "trigger": "angular: $cookies", "contents": "cookies" },
+
+
+	    // ========== ngMock ==========
+
+	    // object
+	    { "trigger": "angular.mock", "contents": "angular.mock" },
+
+	    // provider
+	    { "trigger": "exceptionHandlerProvider", "contents": "exceptionHandlerProvider" },
+
+	    // function
+	    { "trigger": "angular.mock.dump", "contents": "angular.mock.dump(${1:object})" },
+
+	    // ========== ngResource ==========
+
+	    // service
 	    { "trigger": "angular: $resource", "contents": "resource" },
-	    { "trigger": "angular: $rootElement", "contents": "rootElement" },
-	    { "trigger": "angular: $rootScope", "contents": "rootScope" },
+
+	    // ========== ngRoute ==========
+
+	    // provider
+	    { "trigger": "angular: $routeProvider", "contents": "routeProvider" },
+
+	    // service
 	    { "trigger": "angular: $route", "contents": "route" },
 	    { "trigger": "angular: $routeParams", "contents": "routeParams" },
-	    { "trigger": "angular: $routeProvider", "contents": "routeProvider" },
-	    { "trigger": "angular: $templateCache", "contents": "templateCache" },
-	    { "trigger": "angular: $timeout", "contents": "timeout" },
+
+	    // ========== ngTouch ==========
+
+	    // service
+	    { "trigger": "angular: $sanitize", "contents": "sanitize" },
+
+	    // ========== ngTouch ==========
+
+	    // service
+	    { "trigger": "angular: $swipe", "contents": "swipe" },
+
+	    // ========== before current stable ==========
+
+	    // legacy
+	    { "trigger": "angular: $animation", "contents": "animation" },
+	    { "trigger": "angular: $animator", "contents": "animator" },
 	    { "trigger": "angular: $scope", "contents": "scope" }
+
     ]
 }
