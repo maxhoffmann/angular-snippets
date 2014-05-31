@@ -1,4 +1,4 @@
-# Angular.js Snippets for Sublime Text 2/3
+# Angular.js Snippets for Sublime Text
 
 This snippet library provides completions for Angular.js’s stable and unstable branch.
 Sublime Text uses fuzzy searching for snippets and completions therefore you don’t have to write triggers completely.
